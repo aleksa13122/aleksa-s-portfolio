@@ -1,0 +1,37 @@
+.origin,
+.job,
+.hello {
+  z-index: 1;
+  position: relative; /* Dodaj position: relative da bi z-index radio */
+  background-color: transparent;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.origin {
+  max-width: fit-content;
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(182, 182, 182);
+  font-weight: 500;
+}
+.hello {
+  max-width: fit-content;
+  font-weight: 700;
+  font-size: large;
+  z-index: 1;
+  color: white;
+  max-width: fit-content;
+}
+
+.job {
+  border-radius: 5px;
+  /* border: 1px solid gray; */
+  justify-items: center;
+  max-width: fit-content;
+  font-weight: bold;
+  color: white;
+  font-size: xx-large;
+}

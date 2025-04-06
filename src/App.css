@@ -1,0 +1,54 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: #222020;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.primarna {
+  color: #74c69d;
+}
+.sekundarna {
+  color: #40916c;
+  background-color: transparent;
+}
+
+.main-container {
+  display: flex;
+  align-items: center; /* Centriranje vertikalno */
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.backgroundImg {
+  position: absolute; /* Postavlja sliku u odnosu na roditelja */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Slika popunjava celu površinu, ali zadržava proporcije */
+}
+
+/*  
+ 
+Light tema:----------------------------
+Primarna: #2d6a4f (Tamna zelena)
+
+Sekundarna: #52b788 (Srednje svetla zelena)
+
+Pozadina: #f8f9fa (Vrlo svetla siva)
+
+Tekst: #262727 (Tamno siva)
+
+Dark tema:--------------------------------
+Primarna: #74c69d (Svetlija zelena)
+
+Sekundarna: #40916c (Tamnija zelena)
+
+Pozadina: #121212 (Vrlo tamna siva)
+
+Tekst: #e9ecef (Svetlo siva)
+
+*/
