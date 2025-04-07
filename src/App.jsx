@@ -16,7 +16,7 @@ function App() {
         <Info />
       </div>
 
-      <p className="primarna">Aleksa's portfolio page</p>
+      <p className="primarna">Aleksa's portfolio page!</p>
     </div>
   );
 }
