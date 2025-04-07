@@ -1,11 +1,13 @@
 .nav {
   display: flex;
   flex-direction: row;
+  position: relative;
   height: 35px;
   border-radius: 5px;
   font-size: 10px;
   font-weight: 400;
-  background-color: #262727;
+  background-color: transparent;
+  border-radius: 50px;
   z-index: 1;
   border: 1.5px solid darkgray;
   margin-top: 15px;
@@ -16,15 +18,16 @@
   color: #efe9e9;
   align-self: center;
   border-radius: 2px;
-  height: 25px;
-  background-color: #262727;
+  height: 35px;
+  background-color: transparent;
   outline: none; /* Sklanja plavi outline */
   transition: color 0.3s ease; /* Dodaje glatku tranziciju za promenu boje */
   padding: 0 10px; /* Dodajemo padding kako bi dugme bilo stabilno */
   border: none; /* Ukloniti border da ne bi pomerao dugme */
+  border-radius: 50px;
 }
 .nav-div:hover {
-  color: gray; /* Menja boju teksta tokom hover-a */
+  background-color: gray;
 }
 .nav-div:focus {
   outline: none; /* Sklanja outline pri fokusu i kliku */
