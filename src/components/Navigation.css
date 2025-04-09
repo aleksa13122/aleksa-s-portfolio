@@ -9,7 +9,7 @@
   background-color: transparent;
   border-radius: 50px;
   z-index: 1;
-  border: 1.5px solid darkgray;
+  border: 1px solid rgb(99, 97, 97);
   margin-top: 15px;
   justify-content: space-between; /* Raspoređuje elemente sa jednakim razmakom */
 }
