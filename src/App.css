@@ -4,7 +4,6 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  /* margin: 0% 10%; */
   background-color: #262727;
   max-width: 800px;
   margin: 0 auto;
@@ -13,19 +12,18 @@ body {
   color: #74c69d;
 }
 .sekundarna {
-  /* color: #40916c; */
-  color: #262727;
+  color: #40916c;
   background-color: transparent;
 }
 .main-container {
   display: flex;
   align-items: center; /* Centriranje vertikalno */
-  /* justify-content: center; */
   width: 100vw;
   height: 100vh;
   flex-direction: column;
   max-width: 800px;
   margin: 0 auto;
+  /* background-color: aqua; */
 }
 
 /*  

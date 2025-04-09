@@ -1,7 +1,7 @@
 import React from "react";
 
-import Navigation from "./components/Navigation";
-import Info from "./components/Info";
+import Navigation from "./components/Navigation/Navigation";
+import Header from "./components/Header/Header";
 
 import "./App.css";
 import "./index.css";
@@ -11,7 +11,7 @@ function App() {
     <div>
       <div className="main-container">
         <Navigation />
-        <Info />
+        <Header />
       </div>
 
       <p className="primarna">Aleksa's portfolio page</p>
