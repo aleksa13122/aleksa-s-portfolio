@@ -11,7 +11,9 @@
 }
 
 .job-container {
-  /* background-color: aquamarine; */
+  /* background-color: 74c69d; 
+  40916c
+  */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,8 +33,111 @@
 }
 
 .header-links {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex; /* koristi inline-flex da dugme zauzima samo koliko treba */
+  width: auto; /* osigurava da ne raste */
   gap: 10px;
+  height: 30px;
   color: rgb(247, 11, 11);
+  /* background-color: aqua; */
+}
+
+.custom-button {
+  display: inline-flex;
+  align-items: center;
+  height: auto; /* osigurava da ne raste po visini */
+  position: relative;
+  padding-top: 2px; /* smanjen padding gore */
+  padding-bottom: 4px; /* smanjen padding dole */
+  line-height: 1; /* sprečava dodatnu visinu */
+  border: 2px solid #74c69d;
+  border-radius: 12px;
+  margin-top: 1px;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  isolation: isolate;
+  font-size: 10px; /* izmena ovde - manji font */
+  box-shadow: 0 2px 4px rgba(64, 145, 108, 0.1),
+    0 4px 8px rgba(64, 145, 108, 0.1), 0 -1px 2px rgba(64, 145, 108, 0.05);
+  transition: all 0.3s ease;
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 3px; /* izmena ovde - manji razmak */
+  font-weight: 600;
+  color: #fff;
+  transition: transform 0.2s ease;
+}
+
+.button-background {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    #40916c 0%,
+    #74c69d 100%
+  ); /* izmena ovde - novi gradijent */
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover .button-content {
+  transform: translateY(-1px);
+}
+
+.custom-button:hover .button-background {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.custom-button:active .button-content {
+  transform: translateY(1px);
+}
+
+.custom-button:active .button-background {
+  transform: scale(0.98);
+  filter: brightness(0.95);
+}
+
+.custom-button:focus-visible {
+  outline: 2px solid #40916c; /* izmena ovde - outline u boji gradijenta */
+  outline-offset: 2px;
+}
+
+.custom-button:hover {
+  box-shadow: 0 4px 8px rgba(64, 145, 108, 0.2),
+    0 8px 16px rgba(64, 145, 108, 0.2), 0 -2px 4px rgba(64, 145, 108, 0.1);
+}
+
+@keyframes shine {
+  from {
+    transform: translateX(-100%) rotate(45deg);
+  }
+  to {
+    transform: translateX(100%) rotate(45deg);
+  }
+}
+
+.custom-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transform: translateX(-100%) rotate(45deg);
+  z-index: 1;
+}
+
+.custom-button:hover::after {
+  animation: shine 1s ease;
 }

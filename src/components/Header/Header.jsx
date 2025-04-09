@@ -6,8 +6,13 @@ export default function Header() {
     <div className="header-container">
       <HeaderJob />
       <div className="header-links">
-        <p>My Work</p>
-        <p>Download CV</p>
+        <button class="custom-button">
+          <span class="button-content">
+            <span class="button-text">My Work</span>
+          </span>
+          <span class="button-background"></span>
+        </button>
+        <button className="btn-work">Download CV</button>
         <p>Linkedin</p>
         <p>Githab</p>
         <p>Email</p>
