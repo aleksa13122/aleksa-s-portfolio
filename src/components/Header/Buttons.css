@@ -6,10 +6,9 @@
   position: relative;
   border: 2px solid #74c69d;
   border-radius: 12px;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
   color: white;
-  font-family: "Inter", sans-serif;
   isolation: isolate;
   font-size: 10px; /* manji font */
   box-shadow: 0 2px 4px rgba(64, 145, 108, 0.1),
@@ -33,8 +32,10 @@
   display: flex;
   align-items: center;
   gap: 0.3em;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 500;
   color: #fff;
+  padding-right: 2px;
   border: 2px solid #74c69d;
   border-radius: 12px;
   box-shadow: 0 0.7em 1.5em -0.5em rgba(64, 145, 108, 0.2);
@@ -43,8 +44,8 @@
   position: relative;
 }
 .button__icon {
-  width: 20px; /* Smanjiš veličinu ikone na 24px */
-  height: 20px; /* Smanjiš visinu ikone na 24px */
+  width: 15px; /* Smanjiš veličinu ikone na 24px */
+  height: 15px; /* Smanjiš visinu ikone na 24px */
 }
 /* Hover efekat za download CV dugme */
 .button:hover {
