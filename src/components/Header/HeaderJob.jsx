@@ -9,9 +9,8 @@ export default function HeaderJob() {
         FRONTEND <br />
         <div className="second-row">
           <span className="sekundarna">DEVELOPER</span>
-          <button className="btn-contact">Contact me</button>
+          <HeaderLoc />
         </div>
-        <HeaderLoc />
       </div>
     </div>
   );

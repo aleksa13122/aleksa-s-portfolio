@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <div className="header-container">
       <HeaderJob />
-      <div className="header-linksbuttons">
+      <div className="header-links-and-buttons">
         <div className="header-buttons">
           <button class="custom-button">
             <span class="button-content">
