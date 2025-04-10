@@ -1,0 +1,67 @@
+/* Custom button */
+.custom-button {
+  display: inline-flex;
+  align-items: center;
+  height: auto; /* osigurava da ne raste po visini */
+  position: relative;
+  border: 2px solid #74c69d;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-family: "Inter", sans-serif;
+  isolation: isolate;
+  font-size: 10px; /* manji font */
+  box-shadow: 0 2px 4px rgba(64, 145, 108, 0.1),
+    0 4px 8px rgba(64, 145, 108, 0.1), 0 -1px 2px rgba(64, 145, 108, 0.05);
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #40916c 0%, #74c69d 100%);
+}
+
+/* Hover efekat za custom dugme */
+.custom-button:hover {
+  box-shadow: 0 4px 8px rgba(64, 145, 108, 0.2),
+    0 8px 16px rgba(64, 145, 108, 0.2), 0 -2px 4px rgba(64, 145, 108, 0.1);
+  transform: scale(1.05);
+}
+
+/* Download CV button */
+.button {
+  line-height: 1;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid #74c69d;
+  border-radius: 12px;
+  box-shadow: 0 0.7em 1.5em -0.5em rgba(64, 145, 108, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: linear-gradient(135deg, #40916c 0%, #74c69d 100%);
+  position: relative;
+}
+.button__icon {
+  width: 20px; /* Smanjiš veličinu ikone na 24px */
+  height: 20px; /* Smanjiš visinu ikone na 24px */
+}
+/* Hover efekat za download CV dugme */
+.button:hover {
+  box-shadow: 0 4px 8px rgba(64, 145, 108, 0.2),
+    0 8px 16px rgba(64, 145, 108, 0.2), 0 -2px 4px rgba(64, 145, 108, 0.1);
+  transform: scale(1.05);
+}
+/* Animacija za oba dugmeta pri kliku */
+.custom-button:active,
+.button:active {
+  transform: scale(0.95); /* Smanjuje veličinu dugmeta */
+  box-shadow: 0 0.5em 1em -0.5em rgba(64, 145, 108, 0.1); /* Osvetljava dugme pri kliku */
+  filter: brightness(0.9); /* Tamni efekat pri kliku */
+}
+
+/* Nestajanje svetla sa pozadine pri kliku */
+.custom-button:active .button-background,
+.button:active::after {
+  opacity: 0; /* Nestaje pozadinsko svetlo */
+}

@@ -1,16 +1,18 @@
 import "./Header.css";
 import HeaderLoc from "./HeaderLocation";
+
 export default function HeaderJob() {
   return (
     <div className="job-container">
-      <p className="job-title">
+      <div className="job-title">
+        <p className="greeting">Hi Im Aleksa</p>
+        FRONTEND <br />
+        <div className="second-row">
+          <span className="sekundarna">DEVELOPER</span>
+          <button className="btn-contact">Contact me</button>
+        </div>
         <HeaderLoc />
-        FRONTEND <span className="sekundarna">DEVELOPER</span>
-      </p>
-      <p className="job-description">
-        Hi, I'm Aleksa. I create intuitive, visually stunning, and highly
-        functional web applications.
-      </p>
+      </div>
     </div>
   );
 }

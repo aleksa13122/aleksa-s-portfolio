@@ -27,7 +27,7 @@
   border-radius: 50px;
 }
 .nav-div:hover {
-  background-color: gray;
+  background-color: rgb(61, 61, 61);
 }
 .nav-div:focus {
   outline: none; /* Sklanja outline pri fokusu i kliku */
