@@ -20,7 +20,8 @@
 .greeting {
   font-size: 20px;
   color: #74c69d;
-  margin-bottom: 5px;
+  line-height: 1.2;
+  margin-bottom: 10px;
 }
 .job-title {
   font-weight: bold;
@@ -65,7 +66,6 @@
   align-items: center;
   font-size: 18px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* border: 1px solid #74c69d; */
 }
 
 .header-links a:hover {
