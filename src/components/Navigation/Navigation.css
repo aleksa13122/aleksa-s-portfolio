@@ -1,21 +1,25 @@
 .nav {
   display: flex;
   flex-direction: row;
-  position: relative;
+  position: sticky;
+  top: 20px;
   height: 35px;
-  border-radius: 5px;
   font-size: 10px;
   font-weight: 400;
   background-color: transparent;
   border-radius: 50px;
   z-index: 1;
-  border: 1px solid rgb(99, 97, 97);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   margin-top: 15px;
   justify-content: space-between; /* Raspoređuje elemente sa jednakim razmakom */
+  background: rgba(255, 255, 255, 0.103); /* poluprovidna bela */
+  backdrop-filter: blur(10px); /* zamućenje pozadine */
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .nav-div {
-  color: #efe9e9;
+  color: #ffffff;
   align-self: center;
   border-radius: 2px;
   height: 35px;
@@ -27,7 +31,8 @@
   border-radius: 50px;
 }
 .nav-div:hover {
-  background-color: rgb(61, 61, 61);
+  background-color: rgba(124, 123, 123, 0.445);
+  transition: background-color 0.8s ease;
 }
 .nav-div:focus {
   outline: none; /* Sklanja outline pri fokusu i kliku */

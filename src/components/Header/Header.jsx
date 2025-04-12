@@ -66,3 +66,8 @@ export default function Header() {
     </div>
   );
 }
+// It’s just a background div absolutely positioned behind the nav items.
+// I track the hovered tab using React useState,
+// and move the background using CSS transitions based on which tab is hovered.
+// The whole nav is set up with a CSS grid,
+// so each item takes up exactly a quarter of the space.
