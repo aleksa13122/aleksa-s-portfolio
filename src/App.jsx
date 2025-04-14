@@ -1,27 +1,21 @@
-import React from "react";
-
-import Navigation from "./components/Navigation/Navigation";
-import Header from "./components/Header/Header";
-
+import React, { useRef } from "react";
 import "./App.css";
 import "./index.css";
 
+import Navigation from "./components/Navigation/Navigation";
+import Header from "./components/Header/Header";
+import About from "./components/About/About";
+
 function App() {
+  const skillsRef = useRef(null);
+
   return (
     <div>
       <div className="main-container">
-        <Navigation />
-        <Header />
+        <Navigation skillsRef={skillsRef} />
+        <Header skillsRef={skillsRef} />
       </div>
-
-      <p className="primarna">Aleksa's portfolio page</p>
-      <p className="primarna">Aleksa's portfolio page</p>
-      <p className="primarna">Aleksa's portfolio page</p>
-      <p className="primarna">Aleksa's portfolio page</p>
-      <p className="primarna">Aleksa's portfolio page</p>
-      <p className="primarna">Aleksa's portfolio page</p>
-      <p className="primarna">Aleksa's portfolio page</p>
-      <p className="primarna">Aleksa's portfolio page</p>
+      <About ref={skillsRef} />
     </div>
   );
 }

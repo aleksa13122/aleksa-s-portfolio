@@ -4,21 +4,36 @@ import "./Buttons.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import React, { forwardRef } from "react";
 
-export default function Header() {
+const Header = forwardRef((props, ref) => {
+  const goToSkills = () => {
+    if (props.skillsRef.current) {
+      props.skillsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <div className="header-container">
+    <div className="header-container" ref={ref}>
       <HeaderJob />
       <div className="header-links-and-buttons">
         <div className="header-buttons">
           <button class="custom-button">
             <span class="button-content">
-              <span class="button-text">My Work</span>
+              <span class="button-text" onClick={goToSkills}>
+                My Work
+              </span>
             </span>
             <span class="button-background"></span>
           </button>
           <button class="button">
-            <span class="button__text">Download CV</span>
+            <a
+              className="CVanchor"
+              href="../../../public/slikamoja.jpeg"
+              download
+            >
+              <span class="button__text">Download CV</span>
+            </a>
             <svg
               stroke-linejoin="round"
               stroke-linecap="round"
@@ -47,7 +62,7 @@ export default function Header() {
             <FontAwesomeIcon
               icon={faLinkedin}
               size="xl"
-              style={{ color: "#40916c" }}
+              style={{ color: "#367a5c" }}
             />
           </a>
           <a
@@ -58,14 +73,15 @@ export default function Header() {
             <FontAwesomeIcon
               icon={faGithub}
               size="xl"
-              style={{ color: "#40916c" }}
+              style={{ color: "#367a5c" }}
             />
           </a>
         </div>
       </div>
     </div>
   );
-}
+});
+export default Header;
 // It’s just a background div absolutely positioned behind the nav items.
 // I track the hovered tab using React useState,
 // and move the background using CSS transitions based on which tab is hovered.

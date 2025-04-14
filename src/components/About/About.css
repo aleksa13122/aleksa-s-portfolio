@@ -1,0 +1,38 @@
+.tech-stack {
+  display: grid;
+  justify-items: center; /* Centriranje sadržaja u gridu */
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.skills-container h2 {
+  color: #74c69d;
+}
+.tech-item {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Prva kolona je za SVG, druga za tekst */
+  align-items: center;
+  background-color: #222222;
+  border: 0.5px solid rgb(75, 75, 75);
+  border-radius: 5px;
+  height: 50px;
+  width: 125px;
+  margin-bottom: 20px;
+  color: rgb(153, 153, 153);
+}
+
+.tech-item svg {
+  width: 25px; /* Možeš podesiti širinu i visinu SVG-a */
+  height: 25px;
+  fill: #40916c;
+  margin-left: 3px;
+}
+
+.tech-item p {
+  margin: 0;
+}
+
+.tech-item:hover {
+  color: rgb(224, 224, 224);
+  background-color: rgb(75, 75, 75);
+  transition: background-color 0.7s ease;
+}
