@@ -1,0 +1,96 @@
+h2 {
+  color: #74c69d;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.project-item {
+  background-color: #1a1919;
+  height: 450px;
+  width: 380px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.project-item h3 {
+  color: #40916c;
+}
+.project-image-container {
+  width: 90%;
+  height: 70%;
+  align-items: center;
+}
+.project-img {
+  display: block;
+  width: 100%; /* izmena ovde */
+  height: 100%;
+  border-radius: 7px;
+  align-items: center;
+}
+.tech-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* sigurnija varijanta */
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 90%; /* izmena ovde – osigurava da flex box koristi punu širinu */
+  padding-left: 0; /* možeš staviti ako ne želiš pomeranje */
+}
+
+.tech-btn {
+  background-color: transparent;
+  border: 1px solid rgb(75, 75, 75);
+  border-radius: 5px;
+  color: rgb(172, 172, 172);
+  font-size: 10px;
+  font-weight: 300;
+  height: 20px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tech-btn:hover {
+  background-color: rgb(75, 75, 75);
+  color: white;
+}
+.tech-btn-link {
+  display: inline-flex;
+  align-items: center;
+  height: 25px;
+  position: relative;
+  border: 2px solid #74c69d;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  isolation: isolate;
+  font-size: 10px;
+  box-shadow: 0 2px 4px rgba(64, 145, 108, 0.1),
+    0 4px 8px rgba(64, 145, 108, 0.1), 0 -1px 2px rgba(64, 145, 108, 0.05);
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #40916c 0%, #74c69d 100%);
+}
+
+.tech-btn-link:hover {
+  box-shadow: 0 4px 8px rgba(64, 145, 108, 0.2),
+    0 8px 16px rgba(64, 145, 108, 0.2), 0 -2px 4px rgba(64, 145, 108, 0.1);
+  transform: scale(1.05);
+}
+.project-info {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  /* background-color: aqua; */
+}
+.project-info button {
+  margin-left: auto;
+}

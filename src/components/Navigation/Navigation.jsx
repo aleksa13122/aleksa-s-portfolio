@@ -1,13 +1,18 @@
 import React from "react";
 import "./Navigation.css";
 
-export default function Navigation({ skillsRef }) {
+export default function Navigation({ skillsRef, projectsRef }) {
   function HomeScroll() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function AboutScroll() {
-    skillsRef.current.scrollIntoView({ behavior: "smooth" });
+    skillsRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  function ProjectsScroll() {
+    projectsRef.current.scrollIntoView({ behavior: "smooth" });
+    console.log(projectsRef.current);
   }
 
   return (
@@ -18,7 +23,9 @@ export default function Navigation({ skillsRef }) {
       <button className="nav-div" onClick={AboutScroll}>
         About
       </button>
-      <button className="nav-div">Projects</button>
+      <button className="nav-div" onClick={ProjectsScroll}>
+        Projects
+      </button>
       <button className="nav-div">Contact</button>
     </div>
   );

@@ -4,14 +4,16 @@
   grid-template-columns: repeat(5, 1fr);
 }
 
-.skills-container h2 {
+h2 {
   color: #74c69d;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 .tech-item {
   display: grid;
   grid-template-columns: auto 1fr; /* Prva kolona je za SVG, druga za tekst */
   align-items: center;
-  background-color: #222222;
+  background-color: #1a1919;
   border: 0.5px solid rgb(75, 75, 75);
   border-radius: 5px;
   height: 50px;
