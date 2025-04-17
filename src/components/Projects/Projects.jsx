@@ -20,7 +20,7 @@ const Projects = forwardRef((props, ref) => {
           </div>
           <div className="tech-btn-container">
             <button className="tech-btn">JavaScript</button>
-
+            <button className="tech-btn">JavaScript</button>
             <button className="tech-btn">JavaScript</button>
             <button className="tech-btn">JavaScript</button>
           </div>
