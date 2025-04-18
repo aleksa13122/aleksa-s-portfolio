@@ -6,7 +6,7 @@ const About = React.forwardRef((props, ref) => {
   return (
     <div ref={ref}>
       <div className="btn-switch-container">
-        <button className="btn-switch-skills">My skills </button>
+        <button className="btn-switch-skills">Technologies</button>
         <button className="btn-switch-certifications">Certifications</button>
       </div>
       <div className="about-container" id="about-container">
