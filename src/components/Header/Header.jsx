@@ -6,21 +6,15 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import React, { forwardRef } from "react";
 
-const Header = forwardRef((props, ref) => {
-  const goToSkills = () => {
-    if (props.skillsRef.current) {
-      props.skillsRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
+const Header = forwardRef(({ goToProjects }, ref) => {
   return (
     <div className="header-container" ref={ref}>
       <HeaderJob />
       <div className="header-links-and-buttons">
         <div className="header-buttons">
-          <button class="custom-button">
-            <span class="button-content">
-              <span class="button-text" onClick={goToSkills}>
+          <button className="custom-button">
+            <span className="button-content">
+              <span className="button-text" onClick={goToProjects}>
                 My Work
               </span>
             </span>

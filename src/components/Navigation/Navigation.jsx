@@ -7,12 +7,23 @@ export default function Navigation({ skillsRef, projectsRef }) {
   }
 
   function AboutScroll() {
-    skillsRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (skillsRef.current) {
+      const offsetSkills = skillsRef.current.offsetTop;
+      window.scrollTo({
+        top: offsetSkills - 80, // izmena ovde – pomera 50px ispod vrha
+        behavior: "smooth", // izmena ovde – omogućava glatko skrolovanje
+      });
+    }
   }
 
   function ProjectsScroll() {
-    projectsRef.current.scrollIntoView({ behavior: "smooth" });
-    console.log(projectsRef.current);
+    if (projectsRef.current) {
+      const offsetProjects = projectsRef.current.offsetTop;
+      window.scrollTo({
+        top: offsetProjects - 60, // izmena ovde – pomera 50px ispod vrha
+        behavior: "smooth", // izmena ovde – omogućava glatko skrolovanje
+      });
+    }
   }
 
   return (

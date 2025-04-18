@@ -5,7 +5,7 @@ import { forwardRef } from "react";
 
 const Projects = forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="gas">
+    <div ref={ref}>
       <h2>Projects</h2>
       <div className="projects-container">
         <div className="project-item">
@@ -54,7 +54,6 @@ const Projects = forwardRef((props, ref) => {
             </button>
           </div>
           <div className="tech-btn-container">
-            <button className="tech-btn">JavaScript</button>
             <button className="tech-btn">JavaScript</button>
             <button className="tech-btn">JavaScript</button>
             <button className="tech-btn">JavaScript</button>
