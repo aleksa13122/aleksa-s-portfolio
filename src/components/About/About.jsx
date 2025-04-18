@@ -4,12 +4,9 @@ import React, { forwardRef } from "react";
 
 const About = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref}>
-      <div className="btn-switch-container">
-        <button className="btn-switch-skills">Technologies</button>
-        <button className="btn-switch-certifications">Certifications</button>
-      </div>
-      <div className="about-container" id="about-container">
+    <>
+      <div className="about-container" id="about-container" ref={ref}>
+        <h2>Technologies</h2>
         <div className="tech-stack">
           <button class="tech-item">
             <svg
@@ -123,7 +120,20 @@ const About = React.forwardRef((props, ref) => {
           </button>
         </div>
       </div>
-    </div>
+      <div className="btn-switch-container">
+        <button className="btn-switch-certifications">Certifications</button>
+        <button className="btn-switch-skills">Work</button>
+      </div>
+      <div className="toggle-container">
+        <div className="toggle-container-certifications">
+          <p>Certification CS50</p>
+          <p>Certification HTML and CSS</p>
+          <p>Certification JavaScript</p>
+          <p>Certification React.js</p>
+        </div>
+        <div className="toggle-container-work"></div>
+      </div>
+    </>
   );
 });
 export default About;

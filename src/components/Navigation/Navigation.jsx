@@ -20,7 +20,7 @@ export default function Navigation({ skillsRef, projectsRef }) {
     if (projectsRef.current) {
       const offsetProjects = projectsRef.current.offsetTop;
       window.scrollTo({
-        top: offsetProjects - 60, // izmena ovde – pomera 50px ispod vrha
+        top: offsetProjects - 80, // izmena ovde – pomera 50px ispod vrha
         behavior: "smooth", // izmena ovde – omogućava glatko skrolovanje
       });
     }
