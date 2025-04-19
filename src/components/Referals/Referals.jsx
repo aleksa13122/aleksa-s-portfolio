@@ -8,6 +8,10 @@ export default function Referals() {
       <p className="referals-item">Macak</p>
       <p className="referals-item">Duler</p>
       <p className="referals-item">Kuna</p>
+      <p className="referals-item">Duler</p>
+      <p className="referals-item">Kuna</p>
+      <p className="referals-item">Duler</p>
+      <p className="referals-item">Kuna</p>
     </div>
   );
 }
