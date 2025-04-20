@@ -1,18 +1,24 @@
 import "./About.css";
 
 import React, { forwardRef } from "react";
+import { useState } from "react";
 import udemyLogo from "../../images/udemyLogo.png";
 import harvardLogo from "../../images/harvardLogo.png";
 
 const About = React.forwardRef((props, ref) => {
+  const [toggle, setToggle] = useState("certifications");
+
+  const ToggleBtn = (button) => {
+    setToggle(button);
+  };
+
   return (
     <>
       <div className="about-container" id="about-container" ref={ref}>
         <h2>Technologies</h2>
         <p className="tech-description">
           I'm proficient in a range of modern technologies that empower me to
-          build highly functional solutions. These are some of my main
-          technologies.
+          build highly functional solutions. These are some of them:
         </p>
         <div className="tech-stack">
           <button class="tech-item">
@@ -128,61 +134,83 @@ const About = React.forwardRef((props, ref) => {
         </div>
       </div>
       <div className="btn-switch-container">
-        <button className="btn-switch-certifications">Certifications</button>
-        <button className="btn-switch-skills">Work</button>
+        <button
+          onClick={() => ToggleBtn("certifications")}
+          className={
+            toggle === "certifications"
+              ? "btn-switch-certifications-active"
+              : "btn-switch-certifications"
+          }
+        >
+          Certifications
+        </button>
+        <button
+          onClick={() => ToggleBtn("work")}
+          className={
+            toggle === "work" ? "btn-switch-work-active" : "btn-switch-work"
+          }
+        >
+          Work
+        </button>
       </div>
       <div className="changing-container">
-        <div className="toggle-container-certifications">
-          <div className="certification-item">
-            <img className="certification-img" src={harvardLogo} />
-            <div className="certification-text">
-              <p>Harvard's computer science course "CS50"</p>
-              <a
-                className="certification-link"
-                href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
-              >
-                View certificate
-              </a>
+        {toggle === "certifications" && (
+          <div className="toggle-container-certifications">
+            <div className="certification-item">
+              <img className="certification-img" src={harvardLogo} />
+              <div className="certification-text">
+                <p>Harvard's computer science course "CS50"</p>
+                <a
+                  className="certification-link"
+                  href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
+                >
+                  View certificate
+                </a>
+              </div>
+            </div>
+            <div className="certification-item">
+              <img className="certification-img" src={udemyLogo} />
+              <div className="certification-text">
+                <p>Jonas Schmedtmann's HTML & CSS course</p>
+                <a
+                  className="certification-link"
+                  href="https://www.udemy.com/certificate/UC-dbd6fa5f-4f36-403b-869b-0ce2e4e65bfa/"
+                >
+                  View certificate
+                </a>
+              </div>
+            </div>
+            <div className="certification-item">
+              <img className="certification-img" src={udemyLogo} />
+              <div className="certification-text">
+                <p>Jonas Schmedtmann's JavaScript course</p>
+                <a
+                  className="certification-link"
+                  href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
+                >
+                  View certificate
+                </a>
+              </div>
+            </div>
+            <div className="certification-item">
+              <img className="certification-img" src={udemyLogo} />
+              <div className="certification-text">
+                <p>Maximilian Schwarzmüller's React.js course</p>
+                <a
+                  className="certification-link"
+                  href="https://www.udemy.com/certificate/UC-a1e2f78f-2f2b-4df6-a513-9ad93bba52a3/"
+                >
+                  View certificate
+                </a>
+              </div>
             </div>
           </div>
-          <div className="certification-item">
-            <img className="certification-img" src={udemyLogo} />
-            <div className="certification-text">
-              <p>Jonas Schmedtmann's HTML & CSS course</p>
-              <a
-                className="certification-link"
-                href="https://www.udemy.com/certificate/UC-dbd6fa5f-4f36-403b-869b-0ce2e4e65bfa/"
-              >
-                View certificate
-              </a>
-            </div>
+        )}
+        {toggle === "work" && (
+          <div className="toggle-container-work">
+            <p>Aleksa Kralj</p>
           </div>
-          <div className="certification-item">
-            <img className="certification-img" src={udemyLogo} />
-            <div className="certification-text">
-              <p>Jonas Schmedtmann's JavaScript course</p>
-              <a
-                className="certification-link"
-                href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
-              >
-                View certificate
-              </a>
-            </div>
-          </div>
-          <div className="certification-item">
-            <img className="certification-img" src={udemyLogo} />
-            <div className="certification-text">
-              <p>Maximilian Schwarzmüller's React.js course</p>
-              <a
-                className="certification-link"
-                href="https://www.udemy.com/certificate/UC-a1e2f78f-2f2b-4df6-a513-9ad93bba52a3/"
-              >
-                View certificate
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="toggle-container-work"></div>
+        )}
       </div>
     </>
   );
