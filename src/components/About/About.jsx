@@ -1,12 +1,19 @@
 import "./About.css";
 
 import React, { forwardRef } from "react";
+import udemyLogo from "../../images/udemyLogo.png";
+import harvardLogo from "../../images/harvardLogo.png";
 
 const About = React.forwardRef((props, ref) => {
   return (
     <>
       <div className="about-container" id="about-container" ref={ref}>
-        <h2>Tech Stack</h2>
+        <h2>Technologies</h2>
+        <p className="tech-description">
+          I'm proficient in a range of modern technologies that empower me to
+          build highly functional solutions. These are some of my main
+          technologies.
+        </p>
         <div className="tech-stack">
           <button class="tech-item">
             <svg
@@ -126,36 +133,53 @@ const About = React.forwardRef((props, ref) => {
       </div>
       <div className="changing-container">
         <div className="toggle-container-certifications">
-          <div className="certification-item">Certification CS50</div>
           <div className="certification-item">
-            <img className="certification-img" />
-            Certification HTML and CSS
-            <a
-              className="certification-link"
-              href="https://www.udemy.com/certificate/UC-dbd6fa5f-4f36-403b-869b-0ce2e4e65bfa/"
-            >
-              view
-            </a>
+            <img className="certification-img" src={harvardLogo} />
+            <div className="certification-text">
+              <p>Harvard's computer science course "CS50"</p>
+              <a
+                className="certification-link"
+                href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
+              >
+                View certificate
+              </a>
+            </div>
           </div>
           <div className="certification-item">
-            <img className="certification-img" />
-            Certification JavaScript
-            <a
-              className="certification-link"
-              href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
-            >
-              view
-            </a>
+            <img className="certification-img" src={udemyLogo} />
+            <div className="certification-text">
+              <p>Jonas Schmedtmann's HTML & CSS course</p>
+              <a
+                className="certification-link"
+                href="https://www.udemy.com/certificate/UC-dbd6fa5f-4f36-403b-869b-0ce2e4e65bfa/"
+              >
+                View certificate
+              </a>
+            </div>
           </div>
           <div className="certification-item">
-            <img className="certification-img" />
-            Certification React.js
-            <a
-              className="certification-link"
-              href="https://www.udemy.com/certificate/UC-a1e2f78f-2f2b-4df6-a513-9ad93bba52a3/"
-            >
-              view
-            </a>
+            <img className="certification-img" src={udemyLogo} />
+            <div className="certification-text">
+              <p>Jonas Schmedtmann's JavaScript course</p>
+              <a
+                className="certification-link"
+                href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
+              >
+                View certificate
+              </a>
+            </div>
+          </div>
+          <div className="certification-item">
+            <img className="certification-img" src={udemyLogo} />
+            <div className="certification-text">
+              <p>Maximilian Schwarzmüller's React.js course</p>
+              <a
+                className="certification-link"
+                href="https://www.udemy.com/certificate/UC-a1e2f78f-2f2b-4df6-a513-9ad93bba52a3/"
+              >
+                View certificate
+              </a>
+            </div>
           </div>
         </div>
         <div className="toggle-container-work"></div>
