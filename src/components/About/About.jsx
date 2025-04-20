@@ -6,7 +6,7 @@ const About = React.forwardRef((props, ref) => {
   return (
     <>
       <div className="about-container" id="about-container" ref={ref}>
-        <h2>Technologies</h2>
+        <h2>Tech Stack</h2>
         <div className="tech-stack">
           <button class="tech-item">
             <svg
@@ -124,12 +124,39 @@ const About = React.forwardRef((props, ref) => {
         <button className="btn-switch-certifications">Certifications</button>
         <button className="btn-switch-skills">Work</button>
       </div>
-      <div className="toggle-container">
+      <div className="changing-container">
         <div className="toggle-container-certifications">
-          <p>Certification CS50</p>
-          <p>Certification HTML and CSS</p>
-          <p>Certification JavaScript</p>
-          <p>Certification React.js</p>
+          <div className="certification-item">Certification CS50</div>
+          <div className="certification-item">
+            <img className="certification-img" />
+            Certification HTML and CSS
+            <a
+              className="certification-link"
+              href="https://www.udemy.com/certificate/UC-dbd6fa5f-4f36-403b-869b-0ce2e4e65bfa/"
+            >
+              view
+            </a>
+          </div>
+          <div className="certification-item">
+            <img className="certification-img" />
+            Certification JavaScript
+            <a
+              className="certification-link"
+              href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
+            >
+              view
+            </a>
+          </div>
+          <div className="certification-item">
+            <img className="certification-img" />
+            Certification React.js
+            <a
+              className="certification-link"
+              href="https://www.udemy.com/certificate/UC-a1e2f78f-2f2b-4df6-a513-9ad93bba52a3/"
+            >
+              view
+            </a>
+          </div>
         </div>
         <div className="toggle-container-work"></div>
       </div>

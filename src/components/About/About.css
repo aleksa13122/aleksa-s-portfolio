@@ -68,7 +68,7 @@ h2 {
   display: inline-flex;
   align-items: center;
   height: 25px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   position: relative;
   border: 2px solid #74c69d;
   font-weight: 500;
@@ -92,9 +92,26 @@ h2 {
   font-size: 12px;
 }
 
-.toggle-container {
+.changing-container {
   display: flex;
-  align-self: center;
-  background-color: aqua;
+  justify-content: center;
+}
+.toggle-container-certifications {
+  /* background-color: aqua; */
   width: 70%;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.certification-item {
+  gap: 0px;
+}
+.certification-link {
+  padding-left: 10px;
+  color: #40916c;
 }
