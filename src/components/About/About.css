@@ -139,9 +139,8 @@ h2 {
   padding-top: 20px;
 }
 .toggle-container-certifications {
-  /* background-color: aqua; */
   width: 70%;
-  border: 2px solid white;
+  border: 1px solid rgb(75, 75, 75);
   border-radius: 10px;
   color: white;
   padding: 10px;
@@ -182,4 +181,18 @@ h2 {
 }
 .certification-link:hover {
   color: rgb(255, 255, 255);
+}
+.toggle-container-work {
+  width: 70%;
+  border: 1px solid rgb(75, 75, 75);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.work-item {
+  color: #74c69d;
+  align-self: center;
 }

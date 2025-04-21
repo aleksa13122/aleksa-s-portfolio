@@ -4,7 +4,9 @@
   align-items: center;
   margin-top: 80px;
   gap: 5px;
-  height: 100vh;
+  width: 70vh;
+  /* background-color: rgb(62, 162, 250); */
+  height: 70vh;
 }
 .location {
   color: rgb(180, 180, 180);
@@ -22,18 +24,18 @@
   align-items: center;
 }
 .greeting-word {
-  font-size: 20px;
+  font-size: 25px;
   color: #74c69d;
   line-height: 1.2;
   margin-bottom: 5px;
-  width: 100px;
+  width: 120px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   overflow: hidden;
 }
 .greeting-name {
-  font-size: 20px;
+  font-size: 25px;
   color: #74c69d;
   line-height: 1.2;
   margin-bottom: 5px;
@@ -51,11 +53,12 @@
   gap: 5px;
   margin-bottom: 5px;
   margin-right: 20px;
+  margin-top: 50px;
 }
 .job-title {
   font-weight: bold;
   color: white;
-  font-size: 45px;
+  font-size: 60px;
   align-self: flex-start;
   text-align: center;
   margin-bottom: 5px;
@@ -93,7 +96,7 @@
 .header-links a {
   display: inline-flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
