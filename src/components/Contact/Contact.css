@@ -1,0 +1,65 @@
+.contacts-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 180px;
+  width: 90%;
+  margin-bottom: 20px;
+  justify-self: center;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 75, 75);
+}
+.contacts-item1 {
+  position: relative;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 30px;
+}
+.contacts-item1::after {
+  position: absolute;
+  height: 80%;
+  top: 10%;
+  right: 0;
+  width: 1px;
+  background-color: rgb(75, 75, 75);
+  content: "";
+}
+.colab {
+  color: #74c69d;
+  text-decoration: none;
+}
+.colab:hover {
+  color: #579676;
+  text-decoration: underline;
+}
+
+.name-and-copyr {
+  font-size: 13px;
+  font-weight: 300;
+  color: rgb(187, 186, 186);
+}
+.contacts-item2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.contacts-item2-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 350;
+  color: rgb(187, 186, 186);
+  font-size: 13px;
+}
+.contacts-item2 h5 {
+  color: rgb(248, 247, 247);
+  margin-bottom: 10px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.contacts-item2-items a:hover {
+  color: white;
+  text-decoration: underline;
+}

@@ -6,7 +6,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Referals from "./components/Referals/Referals";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const skillsRef = useRef(null);
@@ -29,7 +29,7 @@ function App() {
       </div>
       <About ref={skillsRef} />
       <Projects ref={projectsRef} />
-      <Referals />
+      <Contact />
     </div>
   );
 }
