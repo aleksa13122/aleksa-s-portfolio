@@ -11,6 +11,7 @@ import Contact from "./components/Contact/Contact";
 function App() {
   const skillsRef = useRef(null);
   const projectsRef = useRef(null);
+  const contactsRef = useRef(null);
 
   function goToProjects() {
     if (projectsRef.current) {
@@ -23,13 +24,17 @@ function App() {
   }
   return (
     <div>
-      <Navigation skillsRef={skillsRef} projectsRef={projectsRef} />
+      <Navigation
+        skillsRef={skillsRef}
+        projectsRef={projectsRef}
+        contactsRef={contactsRef}
+      />
       <div className="main-container">
         <Header goToProjects={goToProjects} />
       </div>
       <About ref={skillsRef} />
       <Projects ref={projectsRef} />
-      <Contact />
+      <Contact ref={contactsRef} />
     </div>
   );
 }

@@ -3,7 +3,7 @@
   flex-direction: row;
   position: sticky;
   top: 20px;
-  height: 35px;
+  height: 40px;
   width: 300px;
   justify-self: center;
   font-size: 10px;
@@ -11,11 +11,11 @@
   background-color: transparent;
   border-radius: 50px;
   z-index: 1;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   margin-top: 15px;
   justify-content: space-between; /* Raspoređuje elemente sa jednakim razmakom */
   background: rgba(255, 255, 255, 0.103); /* poluprovidna bela */
-  backdrop-filter: blur(10px); /* zamućenje pozadine */
+  backdrop-filter: blur(8px); /* zamućenje pozadine */
   -webkit-backdrop-filter: blur(20px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
@@ -24,7 +24,7 @@
   color: #ffffff;
   align-self: center;
   border-radius: 2px;
-  height: 35px;
+  height: 40px;
   background-color: transparent;
   outline: none; /* Sklanja plavi outline */
   transition: color 0.3s ease; /* Dodaje glatku tranziciju za promenu boje */

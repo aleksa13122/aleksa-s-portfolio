@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navigation.css";
 
-export default function Navigation({ skillsRef, projectsRef }) {
+export default function Navigation({ skillsRef, projectsRef, contactsRef }) {
   function HomeScroll() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -26,6 +26,16 @@ export default function Navigation({ skillsRef, projectsRef }) {
     }
   }
 
+  function ContactsScroll() {
+    if (contactsRef.current) {
+      const offsetContact = contactsRef.current.offsetTop;
+      window.scrollTo({
+        top: offsetContact - 80,
+        behavior: "smooth",
+      });
+    }
+  }
+
   return (
     <div className="nav">
       <button className="nav-div" onClick={HomeScroll}>
@@ -37,7 +47,9 @@ export default function Navigation({ skillsRef, projectsRef }) {
       <button className="nav-div" onClick={ProjectsScroll}>
         Projects
       </button>
-      <button className="nav-div">Contact</button>
+      <button className="nav-div" onClick={ContactsScroll}>
+        Contact
+      </button>
     </div>
   );
 }

@@ -16,7 +16,7 @@ h2 {
   grid-template-columns: auto 1fr; /* Prva kolona je za SVG, druga za tekst */
   align-items: center;
   background-color: #1a1919;
-  border: 0.5px solid rgb(75, 75, 75);
+  border: none;
   border-radius: 5px;
   height: 50px;
   width: 125px;
