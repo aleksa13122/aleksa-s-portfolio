@@ -14,8 +14,8 @@ h2 {
 
 .project-item {
   background-color: #1a1919;
-  height: 450px; /* Kada ubacim prave slike promeniti*/
-  width: 380px;
+  height: 400px; /* Kada ubacim prave slike promeniti*/
+  width: 450px;
   border-radius: 7px;
   display: flex;
   flex-direction: column;
