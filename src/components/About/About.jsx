@@ -2,8 +2,8 @@ import "./About.css";
 
 import React, { forwardRef } from "react";
 import { useState } from "react";
-import udemyLogo from "../../images/udemyLogo.png";
-import harvardLogo from "../../images/harvardLogo.png";
+import udemyLogo from "../../images/LogoUdemi.png";
+import harvardLogoTransparent from "../../images/LogoHarvard.png";
 
 const About = React.forwardRef((props, ref) => {
   const [toggle, setToggle] = useState("certifications");
@@ -157,9 +157,10 @@ const About = React.forwardRef((props, ref) => {
         {toggle === "certifications" && (
           <div className="toggle-container-certifications">
             <div className="certification-item">
-              <img className="certification-img" src={harvardLogo} />
+              {/* <img className="certification-img" src={harvardLogoTransparent} /> */}
               <div className="certification-text">
-                <p>Harvard's computer science course "CS50"</p>
+                <div className="course-info">Issued by: Harvard</div>
+                <p>Computer science course "CS50"</p>
                 <a
                   className="certification-link"
                   href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
@@ -169,8 +170,9 @@ const About = React.forwardRef((props, ref) => {
               </div>
             </div>
             <div className="certification-item">
-              <img className="certification-img" src={udemyLogo} />
+              {/* <img className="certification-img" src={udemyLogo} /> */}
               <div className="certification-text">
+                <div className="course-info">Issued by: Udemy</div>
                 <p>Jonas Schmedtmann's HTML & CSS course</p>
                 <a
                   className="certification-link"
@@ -181,8 +183,9 @@ const About = React.forwardRef((props, ref) => {
               </div>
             </div>
             <div className="certification-item">
-              <img className="certification-img" src={udemyLogo} />
+              {/* <img className="certification-img" src={udemyLogo} /> */}
               <div className="certification-text">
+                <div className="course-info">Issued by: Udemy</div>
                 <p>Jonas Schmedtmann's JavaScript course</p>
                 <a
                   className="certification-link"
@@ -193,8 +196,9 @@ const About = React.forwardRef((props, ref) => {
               </div>
             </div>
             <div className="certification-item">
-              <img className="certification-img" src={udemyLogo} />
+              {/* <img className="certification-img" src={udemyLogo} /> */}
               <div className="certification-text">
+                <div className="course-info">Issued by: Udemy</div>
                 <p>Maximilian Schwarzmüller's React.js course</p>
                 <a
                   className="certification-link"

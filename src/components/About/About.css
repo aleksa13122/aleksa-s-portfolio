@@ -157,8 +157,8 @@ h2 {
 }
 
 .certification-img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-right: 10px;
   border-radius: 50px;
 }
@@ -197,4 +197,9 @@ h2 {
 .work-item {
   color: #74c69d;
   align-self: center;
+}
+.course-info {
+  font-size: 12px;
+  margin-bottom: -9px;
+  color: rgb(180, 180, 180);
 }

@@ -1,7 +1,9 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #262727;
@@ -24,6 +26,13 @@ body {
   max-width: 800px;
   margin: 0 auto;
   /* background-color: aqua; */
+}
+
+/* Za bolji efekat koristiš i transition */
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
 }
 
 /*  

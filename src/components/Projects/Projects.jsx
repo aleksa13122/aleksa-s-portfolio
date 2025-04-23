@@ -2,6 +2,7 @@ import "./Projects.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // komponenta za prikaz ikonica
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"; // konkretna ikonica
 import { forwardRef } from "react";
+import desktopImg from "../../images/desktopReady.jpg";
 
 const Projects = forwardRef((props, ref) => {
   return (
@@ -10,7 +11,7 @@ const Projects = forwardRef((props, ref) => {
       <div className="projects-container">
         <div className="project-item">
           <div className="project-image-container">
-            <img src="/slikamoja.jpeg" className="project-img" />
+            <img src={desktopImg} className="project-img" />
           </div>
           <div className="project-info">
             <h3>Portfolio</h3>
