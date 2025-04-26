@@ -32,6 +32,7 @@ export default function HeaderJob() {
 
   return (
     <div className="job-container">
+      <div className="circle" />
       <div className="job-title">
         <div className="greetings-container">
           <AnimatePresence mode="wait">

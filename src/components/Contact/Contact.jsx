@@ -11,7 +11,7 @@ const Contact = forwardRef((props, ref) => {
 
     setTimeout(() => {
       setShowPoput(false);
-    }, 2000);
+    }, 10000);
   }
 
   return (
