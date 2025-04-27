@@ -1,8 +1,85 @@
 h1 {
-  color: aqua;
+  color: #74c69d;
   text-align: center;
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
 }
 .project-image {
   height: 300px;
   width: 450px;
+  align-self: center;
+  border-radius: 10px;
+}
+h3 {
+  color: white;
+}
+.project-btns {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  gap: 30px;
+  width: 150%;
+}
+.project-overview-container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: blue; */
+  margin-bottom: 20px;
+}
+/* Custom button */
+.view-demo-btn,
+.source-code-btn {
+  display: inline-flex;
+  margin-left: 20px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 80px;
+  position: relative;
+  border: 2px solid #74c69d;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  isolation: isolate;
+  font-size: 10px; /* manji font */
+  box-shadow: 0 2px 4px rgba(64, 145, 108, 0.1),
+    0 4px 8px rgba(64, 145, 108, 0.1), 0 -1px 2px rgba(64, 145, 108, 0.05);
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #40916c 0%, #74c69d 100%);
+}
+
+/* Hover efekat za custom dugme */
+.view-demo-btn:hover,
+.source-code-btn:hover {
+  box-shadow: 0 4px 8px rgba(64, 145, 108, 0.2),
+    0 8px 16px rgba(64, 145, 108, 0.2), 0 -2px 4px rgba(64, 145, 108, 0.1);
+  transform: scale(1.1);
+}
+.tech-btn {
+  background-color: transparent;
+  border: 1px solid rgb(75, 75, 75);
+  border-radius: 5px;
+  color: rgb(172, 172, 172);
+  font-size: 10px;
+  font-weight: 300;
+  height: 20px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.tech-btn:hover {
+  background-color: rgb(75, 75, 75);
+  color: white;
+}
+.project-description {
+  margin-left: 20px;
+  font-size: 13px;
+  color: rgb(194, 192, 192);
+  margin-top: 1px;
 }

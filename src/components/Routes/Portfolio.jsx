@@ -4,20 +4,37 @@ import "./Portfolio.css";
 export default function Portfolio() {
   return (
     <div className="container-main">
-      <h1 className="project-title">Portfolio project</h1>
+      <h1 className="project-title">My personal portfolio page</h1>
       <img src={previewImg} className="project-image" />
+      <h3>Project overview</h3>
       <div className="project-overview-container">
-        <h3>Project overview</h3>
-        <div className="project-techstack"></div>
+        <div className="project-btns">
+          <div className="project-techstack">
+            <button className="tech-btn"> JavaScript</button>
+            <button className="tech-btn"> React.js</button>
+            <button className="tech-btn"> HTML</button>
+            <button className="tech-btn"> CSS</button>
+            <button className="tech-btn"> Figma</button>
+          </div>
+          <div>
+            <button className="view-demo-btn">View demo</button>
+            <a
+              className="source-code-btn"
+              href="https://github.com/aleksa13122/aleksa-s-portfolio"
+            >
+              Source code
+            </a>
+          </div>
+        </div>
         <p className="project-description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
-          recusandae sequi, voluptas et facere quod fugiat officia explicabo
-          numquam aut porro aspernatur velit ipsa soluta sint commodi.
-          Voluptate, sunt ipsa.
+          This portfolio website features a modern and elegant design,
+          emphasizing clarity, functionality, and visual appeal. It highlights
+          key skills, past projects, and contact details, all within a fully
+          responsive and user-friendly layout. Built with precision and
+          aesthetic sensibility, it serves as a comprehensive showcase of my
+          skills and expertise.
         </p>
         {/* Staviti ova 2 dugmeta u istu klasu? */}
-        <button className="view-demo-btn">View demo</button>
-        <button className="source-code-btn">Source code</button>
       </div>
     </div>
   );
