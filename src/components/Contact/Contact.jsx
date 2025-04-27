@@ -31,14 +31,18 @@ const Contact = forwardRef((props, ref) => {
       <div className="contacts-item2">
         <div className="contacts-item2-items">
           <h5>Contact</h5>
-          <a href="https://github.com/aleksa13122">Github</a>
+          <a onClick={Popup} className="email-copy">
+            Email
+          </a>
           <a href="https://www.linkedin.com/in/aleksa-subotin/">Linkedin</a>
-          <a onClick={Popup}>Email</a>
+          <a href="https://github.com/aleksa13122">Github</a>
           {showPopup && <div className="popup">Copied Email!</div>}
         </div>
         <div className="contacts-item2-items">
           <h5>Projects</h5>
-          <a>Portfolio</a>
+          <a className="portfolio-anchor" href="/portfolio">
+            Portfolio
+          </a>
         </div>
       </div>
     </div>

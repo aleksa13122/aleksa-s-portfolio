@@ -203,3 +203,11 @@ h2 {
   margin-bottom: -9px;
   color: rgb(180, 180, 180);
 }
+.job-offers-link {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #74c69d;
+}
+.job-offers-link:hover {
+  text-decoration: none;
+}
