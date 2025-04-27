@@ -27,6 +27,60 @@ const Projects = forwardRef((props, ref) => {
             <button className="tech-btn">Figma</button>
           </div>
         </div>
+        <div className="project-item">
+          <div className="project-image-container">
+            <img src={desktopImg} className="project-img" />
+          </div>
+          <div className="project-info">
+            <h3>Portfolio</h3>
+            <button className="tech-btn-link">
+              View project <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </div>
+          <div className="tech-btn-container">
+            <button className="tech-btn">JavaScript</button>
+            <button className="tech-btn">React.js</button>
+            <button className="tech-btn">HTML</button>
+            <button className="tech-btn">CSS</button>
+            <button className="tech-btn">Figma</button>
+          </div>
+        </div>
+        <div className="project-item">
+          <div className="project-image-container">
+            <img src={desktopImg} className="project-img" />
+          </div>
+          <div className="project-info">
+            <h3>Portfolio</h3>
+            <button className="tech-btn-link">
+              View project <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </div>
+          <div className="tech-btn-container">
+            <button className="tech-btn">JavaScript</button>
+            <button className="tech-btn">React.js</button>
+            <button className="tech-btn">HTML</button>
+            <button className="tech-btn">CSS</button>
+            <button className="tech-btn">Figma</button>
+          </div>
+        </div>
+        <div className="project-item">
+          <div className="project-image-container">
+            <img src={desktopImg} className="project-img" />
+          </div>
+          <div className="project-info">
+            <h3>Portfolio</h3>
+            <button className="tech-btn-link">
+              View project <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </div>
+          <div className="tech-btn-container">
+            <button className="tech-btn">JavaScript</button>
+            <button className="tech-btn">React.js</button>
+            <button className="tech-btn">HTML</button>
+            <button className="tech-btn">CSS</button>
+            <button className="tech-btn">Figma</button>
+          </div>
+        </div>
       </div>
     </div>
   );

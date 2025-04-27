@@ -32,15 +32,15 @@ h3 {
 .view-demo-btn,
 .source-code-btn {
   display: inline-flex;
-  margin-left: 20px;
+  margin-left: 15px;
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  height: 30px;
+  height: 25px;
   width: 80px;
   position: relative;
   border: 2px solid #74c69d;
-  border-radius: 12px;
+  border-radius: 20px;
   font-weight: 500;
   cursor: pointer;
   color: white;

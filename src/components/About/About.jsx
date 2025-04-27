@@ -212,8 +212,8 @@ const About = React.forwardRef((props, ref) => {
         )}
         {toggle === "work" && (
           <div className="toggle-container-work">
-            <div className="work-item">Coming soon...</div>
             <div className="work-item">Currently searching for a job</div>
+            <div className="work-item">Coming soon...</div>
           </div>
         )}
       </div>

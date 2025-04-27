@@ -26,16 +26,16 @@ function App() {
   }
   return (
     <BrowserRouter>
-      <Navigation
-        skillsRef={skillsRef}
-        projectsRef={projectsRef}
-        contactsRef={contactsRef}
-      />
       <Routes>
         <Route
           path="/"
           element={
             <>
+              <Navigation
+                skillsRef={skillsRef}
+                projectsRef={projectsRef}
+                contactsRef={contactsRef}
+              />
               <div className="main-container">
                 <Header goToProjects={goToProjects} />
               </div>

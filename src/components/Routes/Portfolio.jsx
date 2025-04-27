@@ -17,12 +17,12 @@ export default function Portfolio() {
             <button className="tech-btn"> Figma</button>
           </div>
           <div>
-            <button className="view-demo-btn">View demo</button>
+            <a className="view-demo-btn">View demo</a>
             <a
               className="source-code-btn"
               href="https://github.com/aleksa13122/aleksa-s-portfolio"
             >
-              Source code
+              Source Code
             </a>
           </div>
         </div>
