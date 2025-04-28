@@ -49,7 +49,7 @@ const Header = forwardRef(({ goToProjects }, ref) => {
         </div>
         <div className="header-links">
           <a
-            href="https://www.linkedin.com/in/aleksa-subotin/"
+            href="https://www.linkedin.com/in/aleksa-s1/"
             target="_blank"
             rel="noreferrer"
           >

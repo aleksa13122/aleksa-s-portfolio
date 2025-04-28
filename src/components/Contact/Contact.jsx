@@ -19,12 +19,12 @@ const Contact = forwardRef((props, ref) => {
       <div className="contacts-item1">
         Like what you see?
         <br /> Contact me to {""}
-        <a href="https://www.linkedin.com/in/aleksa-subotin/" className="colab">
+        <a href="https://www.linkedin.com/in/aleksa-s1/" className="colab">
           collaborate
         </a>
         !
         <p className="name-and-copyr">
-          Aleksa Subotin
+          {/* Aleksa Subotin */}
           <br /> © 2025 | All rights reserved.
         </p>
       </div>
@@ -34,7 +34,7 @@ const Contact = forwardRef((props, ref) => {
           <a onClick={Popup} className="email-copy">
             Email
           </a>
-          <a href="https://www.linkedin.com/in/aleksa-subotin/">Linkedin</a>
+          <a href="https://www.linkedin.com/in/aleksa-s1/">Linkedin</a>
           <a href="https://github.com/aleksa13122">Github</a>
           {showPopup && <div className="popup">Copied Email!</div>}
         </div>
