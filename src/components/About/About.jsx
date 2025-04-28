@@ -161,7 +161,7 @@ const About = React.forwardRef((props, ref) => {
                 <p>Computer science course "CS50"</p>
                 <a
                   className="certification-link"
-                  href="https://www.udemy.com/certificate/UC-d069b2a9-3894-4663-aa6d-7cd35902586e/"
+                  href="https://cs50.harvard.edu/certificates/0a2e8f27-495c-4d24-b43b-4e750a424e00"
                 >
                   View certificate
                 </a>

@@ -24,7 +24,7 @@ const Contact = forwardRef((props, ref) => {
         </a>
         !
         <p className="name-and-copyr">
-          {/* Aleksa Subotin */}
+          Aleksa Subotin
           <br /> © 2025 | All rights reserved.
         </p>
       </div>
