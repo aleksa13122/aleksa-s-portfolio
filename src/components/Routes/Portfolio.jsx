@@ -1,4 +1,4 @@
-import previewImg from "../../images/desktopFinal.jpg";
+import previewImg from "../../images/MacMockup1.jpg";
 import "./Portfolio.css";
 
 export default function Portfolio() {

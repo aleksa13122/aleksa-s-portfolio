@@ -2,8 +2,6 @@ import "./About.css";
 
 import React, { forwardRef } from "react";
 import { useState } from "react";
-import udemyLogo from "../../images/LogoUdemi.png";
-import harvardLogoTransparent from "../../images/LogoHarvard.png";
 
 const About = React.forwardRef((props, ref) => {
   const [toggle, setToggle] = useState("certifications");

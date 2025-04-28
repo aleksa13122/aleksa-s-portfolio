@@ -2,7 +2,7 @@ import "./Projects.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // komponenta za prikaz ikonica
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"; // konkretna ikonica
 import { forwardRef } from "react";
-import desktopImg from "../../images/desktopFinal.jpg";
+import desktopImg from "../../images/MacMockup1.jpg";
 
 const Projects = forwardRef((props, ref) => {
   return (
