@@ -44,7 +44,6 @@ const Projects = forwardRef((props, ref) => {
             <button className="tech-btn">React.js</button>
             <button className="tech-btn">HTML</button>
             <button className="tech-btn">CSS</button>
-            <button className="tech-btn">Figma</button>
           </div>
         </div>
         <div className="project-item">
@@ -52,7 +51,7 @@ const Projects = forwardRef((props, ref) => {
             <img src={dvmImg} className="project-img" />
           </div>
           <div className="project-info">
-            <h3>Portfolio</h3>
+            <h3>DVM Renovatie</h3>
             <a href="/portfolio" className="tech-btn-link">
               View project <FontAwesomeIcon icon={faArrowRight} />
             </a>
@@ -62,7 +61,6 @@ const Projects = forwardRef((props, ref) => {
             <button className="tech-btn">React.js</button>
             <button className="tech-btn">HTML</button>
             <button className="tech-btn">CSS</button>
-            <button className="tech-btn">Figma</button>
           </div>
         </div>
       </div>

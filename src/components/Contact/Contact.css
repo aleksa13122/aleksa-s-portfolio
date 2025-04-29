@@ -88,3 +88,6 @@
 .email-copy:hover {
   cursor: pointer;
 }
+.portfolio-anchor {
+  padding-right: 10px;
+}

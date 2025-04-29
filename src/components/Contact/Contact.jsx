@@ -43,6 +43,12 @@ const Contact = forwardRef((props, ref) => {
           <a className="portfolio-anchor" href="/portfolio">
             Portfolio
           </a>
+          <a className="portfolio-anchor" href="/portfolio">
+            Obssesed
+          </a>
+          <a className="portfolio-anchor" href="/portfolio">
+            DVM
+          </a>
         </div>
       </div>
     </div>
