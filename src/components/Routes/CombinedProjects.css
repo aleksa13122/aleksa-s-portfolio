@@ -11,6 +11,7 @@ h1 {
   width: 450px;
   align-self: center;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 h3 {
   color: white;
@@ -25,14 +26,13 @@ h3 {
 .project-overview-container {
   display: flex;
   flex-direction: row;
-  /* background-color: blue; */
   margin-bottom: 20px;
 }
 /* Custom button */
 .view-demo-btn,
 .source-code-btn {
   display: inline-flex;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   text-decoration: none;
   align-items: center;
   justify-content: center;
@@ -79,7 +79,7 @@ h3 {
 }
 .project-description {
   margin-left: 20px;
-  font-size: 13px;
+  font-size: 15px;
   color: rgb(194, 192, 192);
   margin-top: 1px;
   text-align: justify;

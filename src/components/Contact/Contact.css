@@ -31,8 +31,8 @@
   text-decoration: none;
 }
 .colab:hover {
-  color: #579676;
-  text-decoration: underline;
+  color: #4a8166;
+  /* text-decoration: underline; */
   text-underline-offset: 3px;
 }
 
@@ -87,7 +87,4 @@
 }
 .email-copy:hover {
   cursor: pointer;
-}
-.portfolio-anchor {
-  padding-right: 10px;
 }

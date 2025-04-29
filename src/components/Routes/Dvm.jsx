@@ -10,7 +10,7 @@ export default function Dvm() {
         </a>
       </div>
       <div className="container-main">
-        <h1 className="project-title">DVM Renovatie Website</h1>
+        <h1 className="project-title">DVM Renovatie – Company website</h1>
 
         <img src={dvmImg} className="project-image" />
         <h3>Project overview</h3>
@@ -23,26 +23,21 @@ export default function Dvm() {
               <button className="tech-btn"> CSS</button>
             </div>
             <div>
-              <a className="view-demo-btn" href="https://obsessed.rs/">
-                View project
-              </a>
               <a
-                className="source-code-btn"
-                href="https://github.com/aleksa13122/aleksa-s-portfolio"
+                className="view-demo-btn"
+                href="https://www.dvmrenovatie.com/home"
               >
-                Source Code
+                View project
               </a>
             </div>
           </div>
           <p className="project-description">
-            This portfolio website features a modern and elegant design,
-            emphasizing clarity, functionality, and visual appeal. It highlights
-            key skills, past projects, and contact details, all within a fully
-            responsive and user-friendly layout. Built with precision and
-            aesthetic sensibility, it serves as a comprehensive showcase of my
-            skills and expertise.
+            DVM Renovatie is a business website for a home renovation company,
+            built using React. I handled the final front-end implementation
+            based on provided designs and instructions. While the visual layout
+            follows client preferences, my focus was on clean code structure,
+            component logic, and responsiveness.
           </p>
-          {/* Staviti ova 2 dugmeta u istu klasu? */}
         </div>
       </div>
     </>

@@ -15,7 +15,7 @@ h2 {
   display: grid;
   grid-template-columns: auto 1fr; /* Prva kolona je za SVG, druga za tekst */
   align-items: center;
-  background-color: #1a1919;
+  background-color: #272727ab;
   border: none;
   border-radius: 5px;
   height: 50px;
@@ -149,6 +149,7 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: #272727ab;
 }
 
 .certification-item {
@@ -170,16 +171,16 @@ h2 {
 .certification-text p {
   justify-content: center;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 8px;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 500;
   word-spacing: 2px;
 }
 .certification-link {
   color: rgb(180, 180, 180);
   text-decoration: none;
   font-size: 10px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .certification-link:hover {
   color: rgb(255, 255, 255);
@@ -189,6 +190,7 @@ h2 {
   border: 1px solid rgb(75, 75, 75);
   border-radius: 10px;
   color: white;
+  background-color: #272727ab;
   padding: 10px;
   display: flex;
   flex-direction: column;

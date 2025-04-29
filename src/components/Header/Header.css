@@ -7,15 +7,6 @@
   width: 70vh;
   height: 70vh;
 }
-/* .circle {
-  position: absolute;
-  z-index: 0;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: white;
-  filter: blur(50px);
-} */
 .location {
   color: rgb(180, 180, 180);
   font-size: 10px;

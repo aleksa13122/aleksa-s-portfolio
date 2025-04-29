@@ -155,13 +155,13 @@ const About = React.forwardRef((props, ref) => {
         {toggle === "work" && (
           <div className="toggle-container-work">
             <div className="work-item">
-              <h3>Obssesed-online shop</h3>
+              <h3>Obssesed - Online store</h3>
               <h5>
                 Front-End developer(contract)<span> April 2025</span>
               </h5>
               <p className="work-desc">
-                Implemented final UI refinements for the Obsessed Shop fitness
-                clothing e-commerce site using React. Focused on component
+                Implemented final UI refinements for Obsessed - fitness
+                clothing, e-commerce site using React. Focused on component
                 optimization, responsive design adjustments, style polishing,
                 and enhancing overall user experience — all within the React
                 ecosystem using reusable components and state management.
@@ -171,7 +171,7 @@ const About = React.forwardRef((props, ref) => {
               </a>
             </div>
             <div className="work-item">
-              <h3>DVM Renovatie-website</h3>
+              <h3>DVM Renovatie – Company website</h3>
               <h5>
                 Front-End developer(contract)<span> April 2025</span>
               </h5>

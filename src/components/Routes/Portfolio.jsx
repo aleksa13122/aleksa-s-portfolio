@@ -24,7 +24,6 @@ export default function Portfolio() {
               <button className="tech-btn"> Figma</button>
             </div>
             <div>
-              <a className="view-demo-btn">View demo</a>
               <a
                 className="source-code-btn"
                 href="https://github.com/aleksa13122/aleksa-s-portfolio"

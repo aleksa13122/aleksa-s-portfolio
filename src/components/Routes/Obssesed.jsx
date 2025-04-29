@@ -10,7 +10,7 @@ export default function Obssesed() {
         </a>
       </div>
       <div className="container-main">
-        <h1 className="project-title">Obssesed online store</h1>
+        <h1 className="project-title">Obssesed - Online store</h1>
 
         <img src={obssesedImg} className="project-image" />
         <h3>Project overview</h3>
@@ -26,23 +26,14 @@ export default function Obssesed() {
               <a className="view-demo-btn" href="https://obsessed.rs/">
                 View project
               </a>
-              <a
-                className="source-code-btn"
-                href="https://github.com/aleksa13122/aleksa-s-portfolio"
-              >
-                Source Code
-              </a>
             </div>
           </div>
           <p className="project-description">
-            This portfolio website features a modern and elegant design,
-            emphasizing clarity, functionality, and visual appeal. It highlights
-            key skills, past projects, and contact details, all within a fully
-            responsive and user-friendly layout. Built with precision and
-            aesthetic sensibility, it serves as a comprehensive showcase of my
-            skills and expertise.
+            Obsessed Store is a fitness clothing, e-commerce website built with
+            React. I was responsible for final UI polishing, responsive layout
+            adjustments, and optimizing reusable components to improve user
+            experience and maintainability.
           </p>
-          {/* Staviti ova 2 dugmeta u istu klasu? */}
         </div>
       </div>
     </>

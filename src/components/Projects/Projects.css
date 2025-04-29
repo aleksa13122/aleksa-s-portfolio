@@ -15,7 +15,7 @@ h2 {
 }
 
 .project-item {
-  background-color: #1a1919;
+  background-color: #272727ab;
   height: 400px; /* Kada ubacim prave slike promeniti*/
   width: 450px;
   border-radius: 7px;
@@ -25,7 +25,8 @@ h2 {
   padding-top: 20px;
 }
 .project-item h3 {
-  color: #40916c;
+  color: #74c69d;
+  font-size: 20px;
 }
 .project-image-container {
   width: 90%;
