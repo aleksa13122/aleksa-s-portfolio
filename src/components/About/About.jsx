@@ -4,7 +4,7 @@ import React, { forwardRef } from "react";
 import { useState } from "react";
 
 const About = React.forwardRef((props, ref) => {
-  const [toggle, setToggle] = useState("certifications");
+  const [toggle, setToggle] = useState("work");
 
   const ToggleBtn = (button) => {
     setToggle(button);
@@ -133,6 +133,14 @@ const About = React.forwardRef((props, ref) => {
       </div>
       <div className="btn-switch-container">
         <button
+          onClick={() => ToggleBtn("work")}
+          className={
+            toggle === "work" ? "btn-switch-work-active" : "btn-switch-work"
+          }
+        >
+          Work
+        </button>
+        <button
           onClick={() => ToggleBtn("certifications")}
           className={
             toggle === "certifications"
@@ -142,16 +150,44 @@ const About = React.forwardRef((props, ref) => {
         >
           Certifications
         </button>
-        <button
-          onClick={() => ToggleBtn("work")}
-          className={
-            toggle === "work" ? "btn-switch-work-active" : "btn-switch-work"
-          }
-        >
-          Work
-        </button>
       </div>
       <div className="changing-container">
+        {toggle === "work" && (
+          <div className="toggle-container-work">
+            <div className="work-item">
+              <h3>Obssesed-online shop</h3>
+              <h5>
+                Front-End developer(contract)<span> April 2025</span>
+              </h5>
+              <p className="work-desc">
+                Implemented final UI refinements for the Obsessed Shop fitness
+                clothing e-commerce site using React. Focused on component
+                optimization, responsive design adjustments, style polishing,
+                and enhancing overall user experience — all within the React
+                ecosystem using reusable components and state management.
+              </p>
+              <a className="work-view" href="https://obsessed.rs/">
+                View
+              </a>
+            </div>
+            <div className="work-item">
+              <h3>DVM Renovatie-website</h3>
+              <h5>
+                Front-End developer(contract)<span> April 2025</span>
+              </h5>
+              <p className="work-desc">
+                Contributed to the final UI refinements of the DVM Renovatie
+                website using React, following client-provided designs and
+                layout specifications. Focused on polishing components, ensuring
+                responsiveness, and adapting visual details to meet the client’s
+                specific requests.
+              </p>
+              <a className="work-view" href="https://www.dvmrenovatie.com/home">
+                View
+              </a>
+            </div>
+          </div>
+        )}
         {toggle === "certifications" && (
           <div className="toggle-container-certifications">
             <div className="certification-item">
@@ -205,43 +241,6 @@ const About = React.forwardRef((props, ref) => {
                   View certificate
                 </a>
               </div>
-            </div>
-          </div>
-        )}
-        {toggle === "work" && (
-          <div className="toggle-container-work">
-            <div className="work-item">
-              <h3>DVM Renovatie-website</h3>
-              <h5>
-                Front-End developer(contract)<span> April 2025</span>
-              </h5>
-              <p className="work-desc">
-                Contributed to the final front-end phase of the DVM Renovatie
-                renovation services website using React. Worked on improving
-                component structure, ensuring responsive behavior across
-                devices, fine-tuning styles, and delivering a clean,
-                user-friendly interface. Utilized reusable components and React
-                state logic to support maintainability and
-              </p>
-              <a className="work-view" href="https://www.dvmrenovatie.com/home">
-                View
-              </a>
-            </div>
-            <div className="work-item">
-              <h3>Obssesed-online shop</h3>
-              <h5>
-                Front-End developer(contract)<span> April 2025</span>
-              </h5>
-              <p className="work-desc">
-                Implemented final UI refinements for the Obsessed Shop fitness
-                clothing e-commerce site using React. Focused on component
-                optimization, responsive design adjustments, style polishing,
-                and enhancing overall user experience — all within the React
-                ecosystem using reusable components and state management.
-              </p>
-              <a className="work-view" href="https://obsessed.rs/">
-                View
-              </a>
             </div>
           </div>
         )}
