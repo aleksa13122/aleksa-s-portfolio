@@ -3,6 +3,8 @@
   justify-items: center; /* Centriranje sadržaja u gridu */
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 50px;
+  margin-right: 120px;
+  margin-left: 120px;
 }
 
 h2 {
