@@ -197,6 +197,8 @@ h2 {
 .work-item {
   color: #74c69d;
   align-self: center;
+  padding-top: 0;
+  /* background-color: aqua; */
 }
 .course-info {
   font-size: 12px;
@@ -210,4 +212,37 @@ h2 {
 }
 .job-offers-link:hover {
   text-decoration: none;
+}
+.work-item h3 {
+  margin-top: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.work-item h5 {
+  margin-top: -14px;
+  margin-left: 7px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.work-desc {
+  color: rgb(180, 180, 180);
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: -8px;
+  text-align: justify;
+}
+.work-item span {
+  color: rgb(218, 218, 218);
+}
+.work-view {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #74c69d;
+}
+.work-view:hover {
+  color: #40916c;
 }
