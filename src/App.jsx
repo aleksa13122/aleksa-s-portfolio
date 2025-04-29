@@ -9,6 +9,8 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Portfolio from "./components/Routes/Portfolio";
+import Obssesed from "./components/Routes/Obssesed";
+import Dvm from "./components/Routes/Dvm";
 
 function App() {
   const skillsRef = useRef(null);
@@ -45,6 +47,8 @@ function App() {
           }
         />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/obssesed" element={<Obssesed />} />
+        <Route path="/dvm" element={<Dvm />} />
       </Routes>
       <Contact ref={contactsRef} />
     </BrowserRouter>

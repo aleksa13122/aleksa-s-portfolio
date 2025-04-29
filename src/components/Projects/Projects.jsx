@@ -5,6 +5,7 @@ import { forwardRef } from "react";
 import portfolioImg from "../../images/PortfolioMockup.jpg";
 import obssesedImg from "../../images/obssesedMockup.jpg";
 import dvmImg from "../../images/dvmMockup.jpg";
+import Obssesed from "./../Routes/Obssesed";
 
 const Projects = forwardRef((props, ref) => {
   return (
@@ -35,7 +36,7 @@ const Projects = forwardRef((props, ref) => {
           </div>
           <div className="project-info">
             <h3>Obssesed</h3>
-            <a href="/portfolio" className="tech-btn-link">
+            <a href="/obssesed" className="tech-btn-link">
               View project <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>
@@ -52,7 +53,7 @@ const Projects = forwardRef((props, ref) => {
           </div>
           <div className="project-info">
             <h3>DVM Renovatie</h3>
-            <a href="/portfolio" className="tech-btn-link">
+            <a href="/dvm" className="tech-btn-link">
               View project <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>

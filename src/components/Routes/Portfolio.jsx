@@ -1,5 +1,5 @@
 import previewImg from "../../images/PortfolioMockup.jpg";
-import "./Portfolio.css";
+import "./CombinedProjects.css";
 
 export default function Portfolio() {
   return (

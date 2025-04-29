@@ -1,7 +1,7 @@
-import previewImg from "../../images/obssesedMockup.jpg";
-import "./Portfolio.css";
+import obssesedImg from "../../images/obssesedMockup.jpg";
+import "./CombinedProjects.css";
 
-export default function Portfolio() {
+export default function Obssesed() {
   return (
     <>
       <div className="project-nav">
@@ -10,9 +10,9 @@ export default function Portfolio() {
         </a>
       </div>
       <div className="container-main">
-        <h1 className="project-title">My personal portfolio page</h1>
+        <h1 className="project-title">Obssesed online store</h1>
 
-        <img src={previewImg} className="project-image" />
+        <img src={obssesedImg} className="project-image" />
         <h3>Project overview</h3>
         <div className="project-overview-container">
           <div className="project-btns">
@@ -21,10 +21,11 @@ export default function Portfolio() {
               <button className="tech-btn"> React.js</button>
               <button className="tech-btn"> HTML</button>
               <button className="tech-btn"> CSS</button>
-              <button className="tech-btn"> Figma</button>
             </div>
             <div>
-              <a className="view-demo-btn">View demo</a>
+              <a className="view-demo-btn" href="https://obsessed.rs/">
+                View project
+              </a>
               <a
                 className="source-code-btn"
                 href="https://github.com/aleksa13122/aleksa-s-portfolio"
