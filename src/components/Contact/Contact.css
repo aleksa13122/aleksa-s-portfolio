@@ -1,20 +1,20 @@
 .contacts-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  height: 180px;
-  width: 90%;
-  margin-bottom: 20px;
+  width: 60rem;
+  margin-bottom: 2rem;
   justify-self: center;
-  border-radius: 10px;
+  border-radius: 20px;
   border: 1px solid rgb(75, 75, 75);
 }
 .contacts-item1 {
   position: relative;
   color: white;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.6rem;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 2rem;
 }
 .contacts-item1::after {
   position: absolute;
@@ -32,36 +32,33 @@
 }
 .colab:hover {
   color: #4a8166;
-  /* text-decoration: underline; */
-  text-underline-offset: 3px;
 }
 
 .name-and-copyr {
-  font-size: 13px;
+  font-size: 1rem;
   font-weight: 300;
   color: rgb(187, 186, 186);
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 .contacts-item2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding-left: 2rem;
+  padding-top: 1rem;
 }
 .contacts-item2-items {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-left: 10px;
   font-weight: 350;
   color: rgb(187, 186, 186);
-  font-size: 13px;
+  font-size: 1rem;
 }
 .contacts-item2 h5 {
   color: rgb(248, 247, 247);
   margin-bottom: 10px;
-  font-size: 15px;
-  margin-top: 15px;
+  font-size: 1.3rem;
+  margin-top: 1rem;
 }
 .contacts-item2-items a:hover {
   color: white;
@@ -71,7 +68,7 @@
   text-decoration: none;
 }
 .popup {
-  height: 20px;
+  height: 2rem;
   width: auto; /* bolja fleksibilnost */
   color: white;
   background-color: #333;
@@ -79,10 +76,10 @@
   border: 1px solid rgb(70, 70, 70);
   border-radius: 10px;
   position: fixed;
-  top: 20px; /* pozicija od vrha */
-  right: 20px; /* pozicija s desne strane */
+  top: 2rem; /* pozicija od vrha */
+  right: 2rem; /* pozicija s desne strane */
   z-index: 1000;
-  font-size: 14px;
+  font-size: 1rem;
   align-content: center;
 }
 .email-copy:hover {
