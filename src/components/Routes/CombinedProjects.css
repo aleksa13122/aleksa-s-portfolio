@@ -5,28 +5,38 @@ h1 {
 .container-main {
   display: flex;
   flex-direction: column;
+  /* background-color: aqua; */
+  margin-bottom: 3rem;
+  width: 80%;
+  justify-self: center;
+  margin-top: 2rem;
 }
 .project-image {
-  height: 300px;
-  width: 450px;
+  height: 30rem;
+  width: 40rem;
   align-self: center;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 h3 {
   color: white;
+  width: 100vh;
+  align-self: center;
+  font-size: 2rem;
 }
 .project-btns {
   display: flex;
   flex-direction: column;
-  /* background-color: aqua; */
-  gap: 30px;
+  gap: 2rem;
   width: 150%;
 }
 .project-overview-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  width: 100vh;
+  align-self: center;
+  /* background-color: cadetblue; */
 }
 /* Custom button */
 .view-demo-btn,
@@ -36,8 +46,8 @@ h3 {
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  height: 25px;
-  width: 80px;
+  height: 2rem;
+  width: 6rem;
   position: relative;
   border: 2px solid #74c69d;
   border-radius: 20px;
@@ -45,7 +55,7 @@ h3 {
   cursor: pointer;
   color: white;
   isolation: isolate;
-  font-size: 10px; /* manji font */
+  font-size: 0.8rem;
   box-shadow: 0 2px 4px rgba(64, 145, 108, 0.1),
     0 4px 8px rgba(64, 145, 108, 0.1), 0 -1px 2px rgba(64, 145, 108, 0.05);
   transition: all 0.3s ease;
@@ -64,36 +74,34 @@ h3 {
   border: 1px solid rgb(75, 75, 75);
   border-radius: 5px;
   color: rgb(172, 172, 172);
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: 300;
-  height: 20px;
+  height: 1.5rem;
   width: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 5px;
-  margin-top: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 0.7rem;
+  margin-top: 0.7rem;
 }
 .tech-btn:hover {
   background-color: rgb(75, 75, 75);
   color: white;
 }
 .project-description {
-  margin-left: 20px;
-  font-size: 15px;
+  margin-left: 1.5rem;
+  font-size: 1.1rem;
   color: rgb(194, 192, 192);
-  margin-top: 1px;
   text-align: justify;
 }
 .project-nav {
   display: flex;
   flex-direction: row;
   position: sticky;
-  top: 20px;
-  height: 40px;
-
+  top: 3rem;
+  height: 3.5rem;
   justify-self: center;
-  font-size: 10px;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 300;
   background-color: transparent;
   border-radius: 50px;
   z-index: 1;
@@ -111,10 +119,9 @@ h3 {
   align-self: center;
   text-decoration: none;
   align-content: center;
-  font-size: 15px;
-
+  font-size: 1.5rem;
   border-radius: 2px;
-  height: 40px;
+  height: 3.5rem;
   background-color: transparent;
   outline: none; /* Sklanja plavi outline */
   transition: color 0.3s ease; /* Dodaje glatku tranziciju za promenu boje */

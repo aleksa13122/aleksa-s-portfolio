@@ -142,10 +142,10 @@ h2 {
 .changing-container {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 1.5rem;
 }
 .toggle-container-certifications {
-  width: 80%;
+  width: 100vh;
   border: 1px solid rgb(75, 75, 75);
   border-radius: 20px;
   color: white;
@@ -186,7 +186,6 @@ h2 {
   color: rgb(255, 255, 255);
 }
 .toggle-container-work {
-  width: 80%;
   border: 1px solid rgb(75, 75, 75);
   border-radius: 20px;
   color: white;
@@ -195,6 +194,7 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  width: 100vh;
 }
 .work-item {
   color: #74c69d;
