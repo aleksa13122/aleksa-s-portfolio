@@ -10,7 +10,7 @@ export default function Navigation({ skillsRef, projectsRef, contactsRef }) {
     if (skillsRef.current) {
       const offsetSkills = skillsRef.current.offsetTop;
       window.scrollTo({
-        top: offsetSkills - 80, // izmena ovde – pomera 50px ispod vrha
+        top: offsetSkills - 120, // izmena ovde – pomera 50px ispod vrha
         behavior: "smooth", // izmena ovde – omogućava glatko skrolovanje
       });
     }
@@ -20,7 +20,7 @@ export default function Navigation({ skillsRef, projectsRef, contactsRef }) {
     if (projectsRef.current) {
       const offsetProjects = projectsRef.current.offsetTop;
       window.scrollTo({
-        top: offsetProjects - 80, // izmena ovde – pomera 50px ispod vrha
+        top: offsetProjects - 120, // izmena ovde – pomera 50px ispod vrha
         behavior: "smooth", // izmena ovde – omogućava glatko skrolovanje
       });
     }
@@ -30,7 +30,7 @@ export default function Navigation({ skillsRef, projectsRef, contactsRef }) {
     if (contactsRef.current) {
       const offsetContact = contactsRef.current.offsetTop;
       window.scrollTo({
-        top: offsetContact - 80,
+        top: offsetContact - 120,
         behavior: "smooth",
       });
     }

@@ -1,5 +1,7 @@
 /* Custom button */
 .custom-button {
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: inline-flex;
   align-items: center;
   height: auto; /* osigurava da ne raste po visini */
@@ -26,6 +28,8 @@
 
 /* Download CV button */
 .button {
+  padding-left: 1rem;
+  padding-right: 0.4rem;
   line-height: 1;
   background-color: transparent;
   cursor: pointer;

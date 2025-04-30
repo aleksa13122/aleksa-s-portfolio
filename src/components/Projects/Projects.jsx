@@ -5,7 +5,6 @@ import { forwardRef } from "react";
 import portfolioImg from "../../images/PortfolioMockup.jpg";
 import obssesedImg from "../../images/obssesedMockup.jpg";
 import dvmImg from "../../images/dvmMockup.jpg";
-import Obssesed from "./../Routes/Obssesed";
 
 const Projects = forwardRef((props, ref) => {
   return (
@@ -18,16 +17,16 @@ const Projects = forwardRef((props, ref) => {
           </div>
           <div className="project-info">
             <h3>Portfolio</h3>
-            <a href="/portfolio" className="tech-btn-link">
+            <a href="/portfolio" className="tech-div-link">
               View project <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>
-          <div className="tech-btn-container">
-            <button className="tech-btn">JavaScript</button>
-            <button className="tech-btn">React.js</button>
-            <button className="tech-btn">HTML</button>
-            <button className="tech-btn">CSS</button>
-            <button className="tech-btn">Figma</button>
+          <div className="tech-div-container">
+            <div className="tech-div">JavaScript</div>
+            <div className="tech-div">React.js</div>
+            <div className="tech-div">HTML</div>
+            <div className="tech-div">CSS</div>
+            <div className="tech-div">Figma</div>
           </div>
         </div>
         <div className="project-item">
@@ -36,15 +35,15 @@ const Projects = forwardRef((props, ref) => {
           </div>
           <div className="project-info">
             <h3>Obssesed</h3>
-            <a href="/obssesed" className="tech-btn-link">
+            <a href="/obssesed" className="tech-div-link">
               View project <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>
-          <div className="tech-btn-container">
-            <button className="tech-btn">JavaScript</button>
-            <button className="tech-btn">React.js</button>
-            <button className="tech-btn">HTML</button>
-            <button className="tech-btn">CSS</button>
+          <div className="tech-div-container">
+            <div className="tech-div">JavaScript</div>
+            <div className="tech-div">React.js</div>
+            <div className="tech-div">HTML</div>
+            <div className="tech-div">CSS</div>
           </div>
         </div>
         <div className="project-item">
@@ -53,15 +52,15 @@ const Projects = forwardRef((props, ref) => {
           </div>
           <div className="project-info">
             <h3>DVM Renovatie</h3>
-            <a href="/dvm" className="tech-btn-link">
+            <a href="/dvm" className="tech-div-link">
               View project <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>
-          <div className="tech-btn-container">
-            <button className="tech-btn">JavaScript</button>
-            <button className="tech-btn">React.js</button>
-            <button className="tech-btn">HTML</button>
-            <button className="tech-btn">CSS</button>
+          <div className="tech-div-container">
+            <div className="tech-div">JavaScript</div>
+            <div className="tech-div">React.js</div>
+            <div className="tech-div">HTML</div>
+            <div className="tech-div">CSS</div>
           </div>
         </div>
       </div>
