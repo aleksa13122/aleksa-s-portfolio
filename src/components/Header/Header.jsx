@@ -24,7 +24,7 @@ const Header = forwardRef(({ goToProjects }, ref) => {
             <button class="button">
               <a
                 className="CVanchor"
-                href="../../../assets/Resume Eng.pdf"
+                href="../../../public/assets/Resume Eng.pdf"
                 download
               >
                 <span class="button__text">Download CV</span>
