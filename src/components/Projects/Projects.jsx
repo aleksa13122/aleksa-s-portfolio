@@ -18,7 +18,8 @@ const Projects = forwardRef((props, ref) => {
           <div className="project-info">
             <h3>Portfolio</h3>
             <a href="/portfolio" className="tech-div-link">
-              View project <FontAwesomeIcon icon={faArrowRight} />
+              View
+              <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>
           <div className="tech-div-container">
@@ -36,7 +37,8 @@ const Projects = forwardRef((props, ref) => {
           <div className="project-info">
             <h3>Obssesed</h3>
             <a href="/obssesed" className="tech-div-link">
-              View project <FontAwesomeIcon icon={faArrowRight} />
+              View
+              <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>
           <div className="tech-div-container">
@@ -53,7 +55,8 @@ const Projects = forwardRef((props, ref) => {
           <div className="project-info">
             <h3>DVM Renovatie</h3>
             <a href="/dvm" className="tech-div-link">
-              View project <FontAwesomeIcon icon={faArrowRight} />
+              View
+              <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </div>
           <div className="tech-div-container">
