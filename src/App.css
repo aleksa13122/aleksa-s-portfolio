@@ -2,7 +2,10 @@
   font-family: "Montserrat", sans-serif;
 }
 html {
+  /* font-size: 62.5%; */
+
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -25,11 +28,11 @@ body {
 .main-container {
   display: flex;
   align-items: center; /* Centriranje vertikalno */
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   flex-direction: column;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 0px;
+  padding: 0px;
   /* background-color: aqua; */
 }
 

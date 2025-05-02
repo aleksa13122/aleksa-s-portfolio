@@ -1,24 +1,20 @@
-.background-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 .header-container {
+  margin-top: -3.5rem;
+  height: 100%;
+  width: 100%;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80vh;
-  height: 70vh;
-  margin-top: 6rem;
-  /* background-color: aqua; */
+  justify-content: center;
 }
 .location {
   color: rgb(180, 180, 180);
   font-size: 1rem;
-  width: 9rem;
   font-weight: normal;
-  justify-content: bottom;
+  margin-top: auto;
+  text-transform: uppercase;
+  padding-bottom: 1.2rem;
 }
 .CVanchor {
   text-decoration: none;
@@ -28,45 +24,39 @@
   position: relative;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .greeting-word {
   font-size: 2.3rem;
   color: #74c69d;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
-  width: 12rem;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   overflow: hidden;
+  margin: 0 !important;
+  min-width: 180px;
+  /* min-height: 49px; */
+  text-align: right;
 }
 .greeting-name {
   font-size: 2.3rem;
+  min-width: 180px;
+  /* min-height: 49px; */
   color: #74c69d;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
-  display: flex;
-  align-items: end;
-  justify-content: flex-end;
 }
 
 .greetings-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  justify-self: center;
-  margin-right: 1.4rem;
   align-items: center;
-  height: 1.5rem;
+  width: 100%;
   gap: 0.3rem;
+  margin-bottom: -1rem;
+  height: 49px;
 }
 .job-title {
   font-weight: bold;
   color: white;
   font-size: 5.5rem;
-  align-self: flex-start;
-  text-align: center;
-  margin-bottom: 1rem;
 }
 
 .header-links-and-buttons {
@@ -83,14 +73,14 @@
   margin-top: -1.5rem;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
-  gap: 1rem;
+  align-items: center;
+  gap: 0.5rem;
 }
 .header-buttons {
-  display: inline-flex; /* koristi inline-flex da dugme zauzima samo koliko treba */
-  width: auto; /* osigurava da ne raste */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 1rem;
-  height: 3rem;
 }
 .header-links {
   display: inline-flex;
@@ -111,4 +101,104 @@
 .header-links a:active {
   transform: scale(0.95); /* Smanjuje veličinu pri kliku */
   filter: brightness(0.8); /* Tamnjenje efekta pri kliku */
+}
+
+@media (max-width: 760px) {
+  .greeting-name,
+  .greeting-word {
+    font-size: 1.8rem;
+  }
+  .job-title {
+    font-size: 4.5rem;
+  }
+  .location {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .greeting-name,
+  .greeting-word {
+    font-size: 1.4rem;
+  }
+  .job-title {
+    font-size: 4rem;
+  }
+  .location {
+    font-size: 0.6rem;
+  }
+  .second-row {
+    gap: 0.5rem;
+  }
+  .media-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .location {
+    padding-bottom: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .greeting-name,
+  .greeting-word {
+    font-size: 1.2rem;
+  }
+  .job-title {
+    font-size: 3rem;
+  }
+  .job-container {
+    gap: 0.5rem;
+  }
+  .greetings-container {
+    margin-bottom: -1.5rem;
+  }
+  .location {
+    padding-bottom: 0.6rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .second-row {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 0.8rem;
+  }
+  .location {
+    padding-bottom: 0;
+    margin-top: unset;
+  }
+  .header-links-and-buttons {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-links-and-buttons {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+  }
+  .header-links {
+    gap: 0.5rem;
+  }
+  .media-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .greeting-name,
+  .greeting-word {
+    font-size: 1rem;
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 340px) {
+  .job-title {
+    font-size: 2.7rem;
+  }
 }

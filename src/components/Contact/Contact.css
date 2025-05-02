@@ -2,14 +2,12 @@
   width: 70%;
   display: flex;
   justify-content: center;
-  /* background-color: aqua; */
   justify-self: center;
 }
 .contacts-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
   width: 70%;
-  /* overflow: hidden; */
   margin-bottom: 2rem;
   border-radius: 20px;
   border: 1px solid rgb(75, 75, 75);
@@ -96,6 +94,4 @@
 }
 .email-copy:hover {
   cursor: pointer;
-}
-.item1 {
 }
