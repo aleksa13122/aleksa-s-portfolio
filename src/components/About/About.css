@@ -1,10 +1,9 @@
 .tech-stack {
   display: grid;
-  justify-items: center; /* Centriranje sadržaja u gridu */
+  justify-items: center;
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 3rem;
-  width: 100vh;
-  column-gap: 1rem;
+  column-gap: 2rem;
   justify-self: center;
 }
 .changing-container {
