@@ -13,13 +13,8 @@ const Header = forwardRef(({ goToProjects }, ref) => {
         <HeaderJob />
         <div className="header-links-and-buttons">
           <div className="header-buttons">
-            <button className="custom-button">
-              <span className="button-content">
-                <span className="button-text" onClick={goToProjects}>
-                  My Work
-                </span>
-              </span>
-              <span class="button-background"></span>
+            <button className="custom-button" onClick={goToProjects}>
+              My Work
             </button>
             <a class="button" href="/Resume-Eng.pdf" download>
               <span className="button__text">Download CV</span>
