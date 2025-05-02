@@ -30,7 +30,7 @@ const Contact = forwardRef((props, ref) => {
           </p>
         </div>
         <div className="contacts-item2">
-          <div className="contacts-item2-items">
+          <div className="contacts-item2-items item1">
             <h5>Contact</h5>
             <a onClick={Popup} className="email-copy">
               Email
@@ -39,7 +39,7 @@ const Contact = forwardRef((props, ref) => {
             <a href="https://github.com/aleksa13122">Github</a>
             {showPopup && <div className="popup">Copied Email!</div>}
           </div>
-          <div className="contacts-item2-items">
+          <div className="contacts-item2-items ">
             <h5>Projects</h5>
             <a className="portfolio-anchor" href="/portfolio">
               Portfolio

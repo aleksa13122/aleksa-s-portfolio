@@ -1,5 +1,5 @@
 .contacts-wrapper {
-  width: 80%;
+  width: 70%;
   display: flex;
   justify-content: center;
   /* background-color: aqua; */
@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   width: 70%;
+  /* overflow: hidden; */
   margin-bottom: 2rem;
   border-radius: 20px;
   border: 1px solid rgb(75, 75, 75);
@@ -49,13 +50,18 @@
 .contacts-item2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 2rem;
-  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  /* padding-bottom: 2rem; */
+  /* background-color: beige; */
 }
 .contacts-item2-items {
+  /* background-color: blueviolet; */
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  row-gap: 1rem;
   font-weight: 350;
   color: rgb(187, 186, 186);
   font-size: 1rem;
@@ -90,4 +96,6 @@
 }
 .email-copy:hover {
   cursor: pointer;
+}
+.item1 {
 }

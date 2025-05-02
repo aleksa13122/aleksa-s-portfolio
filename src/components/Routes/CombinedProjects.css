@@ -28,13 +28,17 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 150%;
+  width: 130%;
+  /* background-color: beige; */
 }
 .project-overview-container {
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
   width: 80%;
+  /* gap: 2rem; */
+  /* background-color: aqua; */
+  /* height: 90 */
   align-self: center;
   /* background-color: cadetblue; */
 }
@@ -92,6 +96,8 @@ h3 {
   font-size: 1.1rem;
   color: rgb(194, 192, 192);
   text-align: justify;
+  /* width: 80%; */
+  /* text-align: flex-start; */
 }
 .project-nav {
   display: flex;
