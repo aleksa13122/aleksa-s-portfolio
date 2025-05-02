@@ -45,6 +45,7 @@
   transition: transform 0.3s, box-shadow 0.3s;
   background: linear-gradient(135deg, #40916c 0%, #74c69d 100%);
   position: relative;
+  text-decoration: none;
 }
 .button__icon {
   width: 1.5rem; /* Smanjiš veličinu ikone na 24px */
