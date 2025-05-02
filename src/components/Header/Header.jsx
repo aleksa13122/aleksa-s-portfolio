@@ -21,32 +21,26 @@ const Header = forwardRef(({ goToProjects }, ref) => {
               </span>
               <span class="button-background"></span>
             </button>
-            <button class="button">
-              <a
-                className="CVanchor"
-                href="../../../public/assets/Resume Eng.pdf"
-                download
-              >
-                <span class="button__text">Download CV</span>
-              </a>
-              <svg
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.5"
-                viewBox="0 0 24 24"
-                height="40"
-                width="40"
-                class="button__icon"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path fill="none" d="M0 0h24v24H0z" stroke="none"></path>
-                <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-                <path d="M7 11l5 5l5 -5"></path>
-                <path d="M12 4l0 12"></path>
-              </svg>
-            </button>
+            <a class="button" href="/assets/Resume Eng.pdf" download>
+              <span class="button__text">Download CV</span>
+            </a>
+            <svg
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              height="40"
+              width="40"
+              class="button__icon"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path fill="none" d="M0 0h24v24H0z" stroke="none"></path>
+              <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
+              <path d="M7 11l5 5l5 -5"></path>
+              <path d="M12 4l0 12"></path>
+            </svg>
           </div>
           <div className="header-links">
             <a
