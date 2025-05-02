@@ -21,7 +21,7 @@ const Header = forwardRef(({ goToProjects }, ref) => {
               </span>
               <span class="button-background"></span>
             </button>
-            <a class="button" href="public/Resume-Eng.pdf" download>
+            <a class="button" href="/Resume-Eng.pdf" download>
               <span className="button__text">Download CV</span>
               <svg
                 stroke-linejoin="round"
