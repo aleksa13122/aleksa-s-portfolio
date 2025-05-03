@@ -269,6 +269,9 @@ h2 {
     font-size: 1rem;
     font-weight: 400;
   }
+  .changing-container {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 340px) {
   .btn-switch-work,

@@ -141,6 +141,10 @@
 }
 
 @media (max-width: 450px) {
+  .contacts-container {
+    width: fit-content; /* ili konkretna širina, npr. 70% */
+    margin: 10px auto;
+  }
   .contacts-item1 {
     padding-left: 0.5rem;
     padding-top: 0.5rem;
