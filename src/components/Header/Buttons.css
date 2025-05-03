@@ -1,6 +1,7 @@
 /* Custom button */
 .custom-button {
-  padding: 0rem 1rem;
+  padding: 0rem 0.7rem;
+  padding-right: 0.5rem;
   background-color: transparent;
   cursor: pointer;
   display: flex;
@@ -29,8 +30,6 @@
     0 8px 16px rgba(64, 145, 108, 0.2), 0 -2px 4px rgba(64, 145, 108, 0.1);
   transform: scale(1.1);
 }
-
-/* Download CV button */
 
 .button__icon {
   width: 1.5rem; /* Smanjiš veličinu ikone na 24px */
