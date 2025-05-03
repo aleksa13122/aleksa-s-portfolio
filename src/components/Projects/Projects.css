@@ -118,6 +118,9 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
   }
+  .projects-container {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 650px) {
   .projects-container {

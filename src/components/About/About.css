@@ -239,6 +239,9 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .changing-container {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 650px) {
   .certification-text p {
@@ -282,9 +285,6 @@ h2 {
     width: 35%;
     font-size: 1rem;
     font-weight: 400;
-  }
-  .changing-container {
-    margin: 0 auto;
   }
 }
 @media (max-width: 340px) {

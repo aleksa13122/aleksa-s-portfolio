@@ -93,6 +93,9 @@
   cursor: pointer;
 }
 @media (max-width: 1075px) {
+  .contacts-wrapper {
+    margin: 0 auto;
+  }
   .contacts-container {
     display: grid;
     grid-template-columns: 1fr;
