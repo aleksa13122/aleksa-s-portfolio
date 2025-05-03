@@ -112,13 +112,7 @@ h2 {
 .project-img:hover {
   transform: scale(1.2);
 }
-/* @media (max-width: 1200px) {
-  .project-item {
-    height: 25rem;
-    width: 30rem;
-    padding-top: 15px;
-  }
-} */
+
 @media (max-width: 1200px) {
   .projects-container {
     display: grid;
@@ -140,6 +134,7 @@ h2 {
     color: #74c69d;
     margin-top: 1rem;
     font-size: 1rem;
+    text-align: start;
   }
 
   .tech-div-container {

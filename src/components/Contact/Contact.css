@@ -146,6 +146,7 @@
     margin: 10px auto;
   }
   .contacts-item1 {
+    padding-right: 0.5rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -182,6 +183,7 @@
 @media (max-width: 350px) {
   .contacts-item1 {
     font-size: 0.8rem;
+    padding-right: 0.5rem;
   }
   .colab {
     font-size: 0.8rem;
