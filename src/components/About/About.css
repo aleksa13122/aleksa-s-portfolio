@@ -246,7 +246,7 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 420px) {
   .tech-item {
     height: 3.5rem;
     width: 8rem;
