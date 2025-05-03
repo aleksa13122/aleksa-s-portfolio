@@ -4,7 +4,6 @@
   position: sticky;
   top: 3rem;
   height: 3.5rem;
-  /* width: 25rem; */
   justify-self: center;
   font-weight: 400;
   background-color: transparent;
@@ -36,4 +35,31 @@
 }
 .nav-div:focus {
   outline: none; /* Sklanja outline pri fokusu i kliku */
+}
+
+@media (max-width: 450px) {
+  .nav {
+    top: 2.5rem;
+    height: 2.5rem;
+    font-weight: 300;
+  }
+  .nav-div {
+    font-size: 1rem;
+    font-weight: 300;
+    height: 2.5rem;
+    padding: 0 10px; /* Dodajemo padding kako bi dugme bilo stabilno */
+  }
+}
+@media (max-width: 330px) {
+  .nav {
+    top: 2rem;
+    height: 2rem;
+    font-weight: 300;
+  }
+  .nav-div {
+    font-size: 0.8rem;
+    font-weight: 300;
+    height: 2rem;
+    padding: 0 7px; /* Dodajemo padding kako bi dugme bilo stabilno */
+  }
 }

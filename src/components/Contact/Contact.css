@@ -38,7 +38,6 @@
 .colab:hover {
   color: #4a8166;
 }
-
 .name-and-copyr {
   font-size: 1rem;
   font-weight: 300;
@@ -50,8 +49,6 @@
   grid-template-columns: 1fr 1fr;
   padding-left: 1rem;
   padding-top: 0.5rem;
-  /* padding-bottom: 2rem; */
-  /* background-color: beige; */
 }
 .contacts-item2-items {
   /* background-color: blueviolet; */
@@ -94,4 +91,111 @@
 }
 .email-copy:hover {
   cursor: pointer;
+}
+@media (max-width: 1075px) {
+  .contacts-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 1rem;
+  }
+  .contacts-item1::after {
+    display: none; /* izmena ovde — sakriva liniju */
+  }
+}
+@media (max-width: 750px) {
+  .contacts-item1::after {
+    display: none; /* izmena ovde — sakriva liniju */
+  }
+  .contacts-item1 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .colab {
+    font-size: 1.5rem;
+  }
+
+  .name-and-copyr {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  .contacts-item2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+  }
+  .contacts-item2-items {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    row-gap: 0.6rem;
+    font-size: 0.8rem;
+    align-items: center;
+  }
+  .contacts-item2 h5 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .contacts-item1 {
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  .colab {
+    font-size: 1rem;
+  }
+
+  .name-and-copyr {
+    font-size: 0.5rem;
+    margin-top: 0.6rem;
+  }
+  .contacts-item2 {
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .contacts-item2-items {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    row-gap: 0.5rem;
+    font-size: 0.6rem;
+    align-items: center;
+  }
+  .contacts-item2 h5 {
+    font-size: 0.8rem;
+    margin-top: 0rem;
+  }
+  .contacts-item1::after {
+    display: none; /* izmena ovde — sakriva liniju */
+  }
+}
+@media (max-width: 350px) {
+  .contacts-item1 {
+    font-size: 0.8rem;
+  }
+  .colab {
+    font-size: 0.8rem;
+  }
+  .name-and-copyr {
+    font-size: 0.5rem;
+    margin-top: 0.6rem;
+  }
+  .contacts-item2-items {
+    row-gap: 0.3rem;
+    font-size: 0.5rem;
+    /* margin-bottom: 2rem; */
+  }
+  .contacts-item2 h5 {
+    font-size: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  .contacts-item1::after {
+    display: none; /* izmena ovde — sakriva liniju */
+  }
 }
