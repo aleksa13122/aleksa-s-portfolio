@@ -123,6 +123,9 @@ h3 {
   padding: 0 15px; /* Dodajemo padding kako bi dugme bilo stabilno */
   border: none; /* Ukloniti border da ne bi pomerao dugme */
   border-radius: 50px;
+  display: flex; /* izmena ovde – postaje flex container */
+  align-items: center; /* izmena ovde – vertikalno centriranje teksta */
+  justify-content: center;
 }
 .project-nav-div:hover {
   background-color: rgba(124, 123, 123, 0.445);
