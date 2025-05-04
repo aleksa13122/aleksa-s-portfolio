@@ -248,6 +248,11 @@ h2 {
   .changing-container {
     margin: 0 auto;
   }
+  .work-item h3 {
+    justify-self: center;
+    justify-content: center;
+    /* background-color: aqua; */
+  }
 }
 @media (max-width: 650px) {
   .certification-text p {
@@ -263,13 +268,13 @@ h2 {
   }
   .work-item h3 {
     padding-bottom: 1rem;
+    justify-self: center;
   }
 }
 @media (max-width: 420px) {
   .work-item h3 {
     font-size: 1rem;
     padding-bottom: 0.8rem;
-    justify-self: center;
   }
   .tech-item {
     height: 3.5rem;

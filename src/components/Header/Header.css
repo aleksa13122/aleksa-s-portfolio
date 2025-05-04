@@ -62,7 +62,7 @@
 .header-links-and-buttons {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: center;
 }
 .job-description {
@@ -138,6 +138,9 @@
   .location {
     padding-bottom: 0.9rem;
   }
+  .header-links-and-buttons {
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -157,6 +160,15 @@
   .location {
     padding-bottom: 0.6rem;
   }
+  .header-links-and-buttons {
+    gap: 0.5rem;
+  }
+  .header-links {
+    gap: 0.5rem;
+  }
+  .header-buttons {
+    gap: 0.5rem;
+  }
 }
 
 @media (max-width: 435px) {
@@ -169,9 +181,6 @@
     padding-bottom: 0;
     margin-top: unset;
   }
-  .header-links-and-buttons {
-    gap: 1rem;
-  }
 }
 
 @media (max-width: 400px) {
@@ -183,8 +192,8 @@
     gap: 0.5rem;
   }
   .media-icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
   .header-buttons {
     flex-direction: column;
