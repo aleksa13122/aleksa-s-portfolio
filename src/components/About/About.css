@@ -25,10 +25,7 @@ h2 {
   font-size: 2.7rem;
   text-align: center;
 }
-.work-item h3 {
-  justify-self: center !important;
-  justify-content: center !important;
-}
+
 .tech-item {
   display: grid;
   grid-template-columns: auto 1fr; /* Prva kolona je za SVG, druga za tekst */
@@ -203,11 +200,14 @@ h2 {
   color: #74c69d;
   align-self: center;
   margin-top: -2rem;
+  /* background-color: rgb(252, 107, 107); */
 }
-
 .work-item h3 {
   display: flex;
-  justify-content: space-between;
+  /* background-color: rgb(3, 140, 252); */
+  text-align: center;
+  justify-self: center;
+  justify-content: center;
   font-weight: 600;
   font-size: 1.3rem;
 }
