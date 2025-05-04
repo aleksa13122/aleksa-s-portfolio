@@ -19,7 +19,7 @@ const About = React.forwardRef((props, ref) => {
           build highly functional solutions. These are some of them:
         </p>
         <div className="tech-stack">
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -30,7 +30,7 @@ const About = React.forwardRef((props, ref) => {
             </svg>
             <p>JavaScript</p>
           </button>
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -41,7 +41,7 @@ const About = React.forwardRef((props, ref) => {
             </svg>
             <p>Typescript</p>
           </button>
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -52,7 +52,7 @@ const About = React.forwardRef((props, ref) => {
             </svg>
             <p>React.js</p>
           </button>
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -63,7 +63,7 @@ const About = React.forwardRef((props, ref) => {
             </svg>
             <p>Redux</p>
           </button>
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -74,7 +74,7 @@ const About = React.forwardRef((props, ref) => {
             </svg>
             <p>HTML</p>
           </button>
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -85,7 +85,7 @@ const About = React.forwardRef((props, ref) => {
             </svg>
             <p>CSS</p>
           </button>
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -96,7 +96,7 @@ const About = React.forwardRef((props, ref) => {
             </svg>
             <p>Tailwind</p>
           </button>
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -107,7 +107,7 @@ const About = React.forwardRef((props, ref) => {
             </svg>
             <p>Figma</p>
           </button>
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -118,7 +118,7 @@ const About = React.forwardRef((props, ref) => {
             </svg>
             <p>Github</p>
           </button>
-          <button class="tech-item">
+          <button className="tech-item">
             <svg
               role="img"
               viewBox="0 0 24 24"
@@ -155,7 +155,9 @@ const About = React.forwardRef((props, ref) => {
         {toggle === "work" && (
           <div className="toggle-container-work">
             <div className="work-item">
-              <h3>Obssesed - Online store</h3>
+              <h3>
+                Obssesed <br /> Online store
+              </h3>
               <h5>
                 Front-End developer(contract)<span> April 2025</span>
               </h5>
@@ -171,7 +173,9 @@ const About = React.forwardRef((props, ref) => {
               </a>
             </div>
             <div className="work-item">
-              <h3>DVM Renovatie – Company website</h3>
+              <h3>
+                DVM Renovatie <br /> Company website
+              </h3>
               <h5>
                 Front-End developer(contract)<span> April 2025</span>
               </h5>

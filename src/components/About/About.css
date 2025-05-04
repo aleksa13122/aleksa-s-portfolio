@@ -204,7 +204,6 @@ h2 {
 }
 .work-item h3 {
   display: flex;
-  background-color: rgb(3, 140, 252);
   text-align: start;
   align-items: flex-start;
   font-weight: 600;
