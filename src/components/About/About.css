@@ -249,9 +249,8 @@ h2 {
     margin: 0 auto;
   }
   .work-item h3 {
-    justify-self: center;
-    justify-content: center;
-    /* background-color: aqua; */
+    justify-self: center !important;
+    justify-content: center !important;
   }
 }
 @media (max-width: 650px) {
