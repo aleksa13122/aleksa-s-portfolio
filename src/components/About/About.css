@@ -199,12 +199,14 @@ h2 {
 .work-item {
   color: #74c69d;
   align-self: center;
-  margin-top: -2rem;
+  /* margin-top: -2rem; */
   /* background-color: rgb(252, 107, 107); */
+  margin: -1rem auto;
 }
 .work-item h3 {
   display: flex;
   /* background-color: rgb(3, 140, 252); */
+  /* margin: 0 auto; */
   text-align: center;
   justify-self: center;
   justify-content: center;
