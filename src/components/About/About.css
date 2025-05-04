@@ -25,6 +25,10 @@ h2 {
   font-size: 2.7rem;
   text-align: center;
 }
+.work-item h3 {
+  justify-self: center !important;
+  justify-content: center !important;
+}
 .tech-item {
   display: grid;
   grid-template-columns: auto 1fr; /* Prva kolona je za SVG, druga za tekst */
@@ -247,10 +251,6 @@ h2 {
   }
   .changing-container {
     margin: 0 auto;
-  }
-  .work-item h3 {
-    justify-self: center !important;
-    justify-content: center !important;
   }
 }
 @media (max-width: 650px) {
