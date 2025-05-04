@@ -22,8 +22,8 @@ export default function Obssesed() {
               <button className="tech-btn"> HTML</button>
               <button className="tech-btn"> CSS</button>
             </div>
-            <div>
-              <a className="view-demo-btn" href="https://obsessed.rs/">
+            <div className="project-action">
+              <a className="source-code-btn" href="https://obsessed.rs/">
                 View project
               </a>
             </div>

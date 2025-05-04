@@ -36,11 +36,10 @@ h3 {
   width: 80%;
   align-self: center;
 }
-/* Custom button */
+
 .view-demo-btn,
 .source-code-btn {
   display: inline-flex;
-  /* margin-left: 15px; */
   text-decoration: none;
   align-items: center;
   justify-content: center;
@@ -190,7 +189,6 @@ h3 {
   .project-overview-container {
     margin-bottom: 1.2rem;
     justify-items: center;
-    /* padding-bottom: 1rem; */
   }
   .project-description {
     margin-left: 1.2rem;
@@ -234,13 +232,11 @@ h3 {
     width: 16rem;
     margin-bottom: 8px;
   }
-  .view-demo-btn,
   .source-code-btn {
     height: 1.7rem;
     width: 4.5rem;
     font-weight: 400;
     font-size: 0.6rem;
-    justify-self: center;
   }
   .project-nav {
     top: 1.3rem;

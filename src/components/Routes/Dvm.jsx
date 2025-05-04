@@ -24,7 +24,7 @@ export default function Dvm() {
             </div>
             <div>
               <a
-                className="view-demo-btn"
+                className="source-code-btn"
                 href="https://www.dvmrenovatie.com/home"
               >
                 View project

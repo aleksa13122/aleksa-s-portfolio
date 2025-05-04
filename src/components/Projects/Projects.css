@@ -131,7 +131,7 @@ h2 {
   .project-item {
     height: 27rem;
     width: 28rem;
-    padding-top: 10px;
+    padding-top: 1.2rem;
   }
   .project-item h3 {
     color: #74c69d;
@@ -158,7 +158,7 @@ h2 {
   .project-item {
     height: 20rem;
     width: 21rem;
-    padding-top: 8px;
+    padding-top: 1rem;
   }
   .project-item h3 {
     margin-top: 0.6rem;
@@ -199,7 +199,7 @@ h2 {
   .project-item {
     height: 17rem;
     width: 18rem;
-    padding-top: 5px;
+    padding-top: 0.8rem;
   }
   .project-item h3 {
     margin-top: 0.5rem;
@@ -226,7 +226,7 @@ h2 {
   .project-item {
     height: 16rem;
     width: 15rem;
-    padding-top: 5px;
+    padding-top: 0.7rem;
   }
   .project-item h3 {
     margin-top: 0.5rem;
