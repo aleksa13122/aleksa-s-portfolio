@@ -22,7 +22,7 @@ export default function Dvm() {
               <button className="tech-btn"> HTML</button>
               <button className="tech-btn"> CSS</button>
             </div>
-            <div>
+            <div className="project-action">
               <a
                 className="source-code-btn"
                 href="https://www.dvmrenovatie.com/home"
