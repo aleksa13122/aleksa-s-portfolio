@@ -199,17 +199,14 @@ h2 {
 .work-item {
   color: #74c69d;
   align-self: center;
-  /* margin-top: -2rem; */
+  margin-top: -2rem;
   /* background-color: rgb(252, 107, 107); */
-  margin: -1rem auto;
 }
 .work-item h3 {
   display: flex;
-  /* background-color: rgb(3, 140, 252); */
-  /* margin: 0 auto; */
-  text-align: center;
-  justify-self: center;
-  justify-content: center;
+  background-color: rgb(3, 140, 252);
+  text-align: start;
+  align-items: flex-start;
   font-weight: 600;
   font-size: 1.3rem;
 }
@@ -266,10 +263,6 @@ h2 {
   .tech-stack {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
-  .work-item h3 {
-    padding-bottom: 1rem;
-    justify-self: center;
   }
 }
 @media (max-width: 420px) {
