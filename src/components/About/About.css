@@ -277,6 +277,16 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (max-width: 500px) {
+  .btn-switch-work,
+  .btn-switch-work-active,
+  .btn-switch-certifications-active,
+  .btn-switch-certifications {
+    width: 35%;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
 @media (max-width: 420px) {
   .work-item h3 {
     font-size: 1rem;
@@ -297,16 +307,7 @@ h2 {
   .tech-stack {
     column-gap: 0.5rem;
     width: 80%;
-  }
-}
-@media (max-width: 500px) {
-  .btn-switch-work,
-  .btn-switch-work-active,
-  .btn-switch-certifications-active,
-  .btn-switch-certifications {
-    width: 35%;
-    font-size: 1rem;
-    font-weight: 400;
+    margin: 0 auto;
   }
 }
 @media (max-width: 350px) {
