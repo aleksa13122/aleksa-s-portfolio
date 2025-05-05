@@ -15,7 +15,7 @@ const Header = forwardRef(({ goToProjects }, ref) => {
           <button className="custom-button" onClick={goToProjects}>
             My Work
           </button>
-          <button className="custom-button" href="/Resume-Eng.pdf" download>
+          <a className="button" href="/Resume-Eng.pdf" download>
             Download CV
             <svg
               stroke-linejoin="round"
@@ -34,7 +34,7 @@ const Header = forwardRef(({ goToProjects }, ref) => {
               <path d="M7 11l5 5l5 -5"></path>
               <path d="M12 4l0 12"></path>
             </svg>
-          </button>
+          </a>
         </div>
         <div className="header-links">
           <a

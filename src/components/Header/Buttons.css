@@ -22,8 +22,33 @@
   max-height: 45px;
   flex-direction: row;
   gap: 0.5rem;
+  text-decoration: none; /* uklanja podvlačenje */
+  line-height: normal; /* izjednačiš ponašanje sa buttonom */
 }
-
+.button {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  height: 41px;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  border: 2px solid #74c69d;
+  border-radius: 20px;
+  box-shadow: 0 0.7em 1.5em -0.5em rgba(64, 145, 108, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: linear-gradient(135deg, #40916c 0%, #74c69d 100%);
+  position: relative;
+  text-decoration: none;
+  flex-direction: row;
+  gap: 0.5rem;
+  text-decoration: none; /* uklanja podvlačenje */
+  line-height: normal; /* izjednačiš ponašanje sa buttonom */
+}
 /* Hover efekat za custom dugme */
 .custom-button:hover {
   box-shadow: 0 4px 8px rgba(64, 145, 108, 0.2),
@@ -32,8 +57,8 @@
 }
 
 .button__icon {
-  width: 1.5rem; /* Smanjiš veličinu ikone na 24px */
-  height: 1.5rem; /* Smanjiš visinu ikone na 24px */
+  width: 20px; /* Smanjiš veličinu ikone na 24px */
+  height: 20px; /* Smanjiš visinu ikone na 24px */
 }
 /* Hover efekat za download CV dugme */
 .button:hover {

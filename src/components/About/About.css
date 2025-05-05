@@ -19,6 +19,7 @@
   text-align: center;
   margin-bottom: 2rem;
 }
+
 h2 {
   color: #74c69d;
   font-weight: bold;
@@ -198,24 +199,33 @@ h2 {
 }
 .work-item {
   color: #74c69d;
-  align-self: center;
+
   margin-top: -2rem;
-  /* background-color: rgb(252, 107, 107); */
-}
-.work-item h3 {
-  display: flex;
-  text-align: start;
-  align-items: flex-start;
-  font-weight: 600;
-  font-size: 1.3rem;
 }
 
-.work-item h5 {
+.job-name {
+  padding-top: 1rem;
+  /* background-color: goldenrod; */
+  font-weight: 600;
+  font-size: 1.3rem;
+  align-items: center;
+  justify-self: center;
+}
+.job-desc {
+  width: fit-content;
+  font-size: 17px;
+  justify-self: center;
+}
+.work-header {
+  text-align: center;
+}
+.work-title {
   display: flex;
   font-size: 1.1rem;
-  margin-top: -1.2rem;
   justify-content: space-between;
   font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .work-desc {
   color: rgb(180, 180, 180);
@@ -292,7 +302,7 @@ h2 {
     font-weight: 400;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 350px) {
   .btn-switch-work,
   .btn-switch-work-active,
   .btn-switch-certifications-active,
@@ -305,10 +315,14 @@ h2 {
     height: 3rem;
     width: 7.5rem;
   }
+  .job-desc {
+    width: 150px;
+    font-size: 15px;
+  }
 }
 @media (max-width: 450px) {
   .work-item span {
-    font-size: 0.9rem;
+    font-size: 14px;
     font-weight: 250;
     display: block;
   }

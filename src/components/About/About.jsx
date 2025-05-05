@@ -155,10 +155,13 @@ const About = React.forwardRef((props, ref) => {
         {toggle === "work" && (
           <div className="toggle-container-work">
             <div className="work-item">
-              <h3>
-                Obssesed <br /> Online store
-              </h3>
-              <h5>
+              <div className="work-header">
+                <h3 className="job-name">
+                  Obssesed <br />
+                  <span className="job-desc"> Online store</span>
+                </h3>
+              </div>
+              <h5 className="work-title">
                 Front-End developer(contract)<span> April 2025</span>
               </h5>
               <p className="work-desc">
@@ -173,10 +176,14 @@ const About = React.forwardRef((props, ref) => {
               </a>
             </div>
             <div className="work-item">
-              <h3>
-                DVM Renovatie <br /> Company website
-              </h3>
-              <h5>
+              <div className="work-header">
+                <h3 className="job-name">
+                  DVM Renovatie
+                  <br />
+                  <span className="job-desc"> Company website</span>
+                </h3>
+              </div>
+              <h5 className="work-title">
                 Front-End developer(contract)<span> April 2025</span>
               </h5>
               <p className="work-desc">
