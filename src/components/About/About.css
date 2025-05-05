@@ -210,14 +210,17 @@ h2 {
   font-size: 1.3rem;
   align-items: center;
   justify-self: center;
+  margin: 0 auto;
 }
 .job-desc {
   width: fit-content;
   font-size: 17px;
   justify-self: center;
+  margin: 0 auto;
 }
 .work-header {
   text-align: center;
+  margin: 0 auto;
 }
 .work-title {
   display: flex;

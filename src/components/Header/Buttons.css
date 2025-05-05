@@ -86,6 +86,11 @@
     font-size: 12px;
     max-height: 30px;
   }
+  .button {
+    min-height: 26px;
+    font-size: 12px;
+    max-height: 26px;
+  }
   .button__icon {
     width: 1.2rem; /* Smanjiš veličinu ikone na 24px */
     height: 1.2rem; /* Smanjiš visinu ikone na 24px */
