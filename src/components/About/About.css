@@ -1,15 +1,3 @@
-.tech-stack {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(5, 1fr);
-  margin-bottom: 3rem;
-  column-gap: 2rem;
-  justify-self: center;
-}
-.changing-container {
-  width: 70%;
-  justify-self: center;
-}
 .tech-description {
   color: rgb(206, 205, 205);
   width: 80%;
@@ -19,14 +7,14 @@
   text-align: center;
   margin-bottom: 2rem;
 }
-
-h2 {
-  color: #74c69d;
-  font-weight: bold;
-  font-size: 2.7rem;
-  text-align: center;
+.tech-stack {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 3rem;
+  column-gap: 2rem;
+  justify-self: center;
 }
-
 .tech-item {
   display: grid;
   grid-template-columns: auto 1fr; /* Prva kolona je za SVG, druga za tekst */
@@ -38,10 +26,10 @@ h2 {
   height: 4.5rem;
   width: 10rem;
   gap: 0.5rem;
+
   margin-bottom: 2rem;
   color: rgb(184, 184, 184);
 }
-
 .tech-item svg {
   width: 2.5rem;
   height: 2.5rem;
@@ -54,6 +42,18 @@ h2 {
   background-color: rgb(75, 75, 75);
   transition: background-color 0.7s ease;
 }
+.changing-container {
+  width: 70%;
+  justify-self: center;
+}
+
+h2 {
+  color: #74c69d;
+  font-weight: bold;
+  font-size: 2.7rem;
+  text-align: center;
+}
+
 .btn-switch-container {
   display: flex;
   flex-direction: row;
@@ -293,6 +293,9 @@ h2 {
     height: 2rem;
     fill: #40916c;
     margin-left: 0.3rem;
+  }
+  .tech-stack {
+    column-gap: 0.5rem;
   }
 }
 @media (max-width: 500px) {
