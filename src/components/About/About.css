@@ -295,14 +295,16 @@ h2 {
   .tech-item {
     height: 3.5rem;
     width: 8rem;
-    gap: 0.2rem;
     font-size: 0.8rem;
+    place-items: center;
+    display: flex;
+    justify-content: center;
   }
   .tech-item svg {
     width: 2rem;
     height: 2rem;
     fill: #40916c;
-    margin-left: 0.3rem;
+    justify-self: center;
   }
   .tech-stack {
     column-gap: 0.5rem;
